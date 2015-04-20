@@ -9,7 +9,7 @@
 -------------------------------------------------- */
 body {
   color: #676a6c;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-family: 'Microsoft Yahei', 'Open Sans', helvetica, arial, sans-serif;
 }
 span.navy {
   color: #1ab394;
@@ -72,7 +72,7 @@ h1 {
 }
 .navbar-default .nav li a {
   color: #fff;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-family: 'Microsoft Yahei', 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
