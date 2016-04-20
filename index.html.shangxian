@@ -9,7 +9,7 @@
     <!-- Add Your favicon here -->
     <!--<link rel="icon" href="img/favicon.ico">-->
 
-    <title>Jumpserver - 开源跳板机 - 堡垒机 - 官网</title>
+    <title>Jumpserver - 官网</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,12 +35,12 @@
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Jumpserver</span>
+                        <span class="sr-only"><img src="img/logo.png"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Jumpserver</a>
+                    <a href="#"><img src="img/logo.png"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -65,13 +65,13 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>开源跳板机<br/>
+                    <h1><br/>
                         Python<br/>
                         Django + MySQL<br/>
                         LDAP </h1>
                     <p>认证，授权，审计，自动化运维.</p>
                     <p>
-                        <a class="btn btn-lg btn-primary" href="https://github.com/jumpserver/jumpserver" role="button">View Project on GitHub</a>
+                        <a class="btn btn-lg btn-primary" href="https://github.com/ibuler/jumpserver" role="button">View Project on GitHub</a>
                         <a class="btn btn-lg btn-info" href="http://demo.jumpserver.org" role="button">demo</a>
                     </p>
                 </div>
@@ -89,7 +89,7 @@
                     <h1>移动版支持 <br/> 极致体验.</h1>
                     <p>Power by Bootstrap, HTML5, Jquery, CSS.</p>
                     <p>
-                        <a class="btn btn-lg btn-primary" href="https://github.com/jumpserver/jumpserver" role="button">View Project on GitHub</a>
+                        <a class="btn btn-lg btn-primary" href="https://github.com/ibuler/jumpserver" role="button">View Project on GitHub</a>
                         <a class="btn btn-lg btn-info" href="http://demo.jumpserver.org" role="button">demo</a>
                     </p>
                 </div>
@@ -114,7 +114,7 @@
         <div class="col-sm-3">
             <h2>完全开源</h2>
             <p>Jumpserver 是完全开源的项目，安全，透明，免费，方便二次开发</p>
-            <p><a class="navy-link" href="https://github.com/jumpserver/jumpserver" role="button">Details &raquo;</a></p>
+            <p><a class="navy-link" href="https://github.com/ibuler/jumpserver" role="button">Details &raquo;</a></p>
         </div>
         <div class="col-sm-3">
             <h2>极致省力</h2>
@@ -221,6 +221,21 @@
                     </ul>
                 </div>
             </div>
+            <!-- <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="img/avatar1.jpg" class="img-responsive img-circle" alt="">
+                    <h4><span class="navy">John</span> Novak</h4>
+                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
             <div class="col-sm-4 wow fadeInRight">
                 <div class="team-member">
                     <img src="img/avatar2.jpg" class="img-responsive img-circle img-small" alt="">
@@ -241,62 +256,13 @@
                 <div class="team-member">
                     <img src="img/jiaxiangkong.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><span class="navy">陈尚委</span> (假想控)</h4>
-                    <p>Jumpserver首席运营官，多年开源项目运营经验，有什么困难尽管跟我说，反正我也帮不了你.</p>
+                    <p>Jumpserver首席运营官，多年开源项目运营经验，有什么团难尽管跟我说，反正我也帮不了你.</p>
                     <ul class="list-inline social-icon">
                         <li><a href="mailto:704564722@qq.com"><i class="fa fa-envelope"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="http://weibo.com/halcyon"><i class="fa fa-weibo"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-         <div class="row">
-            <div class="col-sm-4 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="img/kelianchun.png" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">柯连春</span> (遍地节操)</h4>
-                    <p>Jumpserver代码核心贡献者，多年开发经验，高度近视，5米开外，男女不分；10米开外，人畜不分.</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="mailto:360271747@qq.com"><i class="fa fa-envelope"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://weibo.com/kelianchun"><i class="fa fa-weibo"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-4 wow fadeInRight">
-                <div class="team-member">
-                    <img src="img/yumaojun.png" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">喻茂峻</span> (紫川秀)</h4>
-                    <p>Jumpserver代码核心贡献者，资深运维工程师，毕业于南少林，擅长打野升级.</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="mailto:yumaojun@gmail.com"><i class="fa fa-envelope"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-weibo"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-4 wow fadeInRight">
-                <div class="team-member">
-                    <img src="img/liuzheng.jpg" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">刘正</span> (evanescunt)</h4>
-                    <p>Jumpserver代码核心贡献者，资深开发工程师，加里敦大学在读研究生，主修道术穿墙术等。</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="mailto:liuzheng712@gmail.com"><i class="fa fa-envelope"></i></a>
-                        </li>
-                        <li><a href="facebook:liuzheng712"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://weibo.com/liuzheng712"><i class="fa fa-weibo"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -371,7 +337,7 @@
         </div>
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1 features-text">
-
+            
                 <h2>用户管理 </h2>
                 <i class="fa fa-users big-icon pull-right"></i>
                 <p>用户管理模块，负责添加修改删除用户，把用户划分部门，由部门管理员统一管理，把用户划分不同的用户组，方便将来授权主机，授权sudo.</p>
@@ -385,13 +351,13 @@
         </div>
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1 features-text">
-
+                
                 <h2>授权管理</h2>
                 <i class="fa fa-clock-o big-icon pull-right"></i>
                 <p>授权管理模块，负责授权主机，授权sudo. 同时增加部门授权，把主机授权给部门，由部门管理员管理这些主机授权</p>
             </div>
             <div class="col-lg-5 features-text">
-
+               
                 <h2>日志审计 </h2>
                 <i class="fa  fa-bar-chart big-icon pull-right"></i>
                 <p>日志审计模块，监控用户操作，统计用户操作记录，可中断用户不良危险操作.</p>
@@ -405,122 +371,54 @@
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>支付宝打赏</h1>
-                <div style="margin: 0,auto">
-                    <img src="img/donate.png" alt="dashboard" >
+                <h1>捐助</h1>
+                <p>Jumpserver是开源项目，渴望得到大家赞助.</p>
+                <!-- <a class="btn btn-lg btn-primary" href="#" role="button"></a> -->
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10 text-center  wow zoomIn">
+                    <img src="img/donate.png" alt="dashboard" class="img-responsive">
+                </div>
+                <div>
+                
                 </div>
             </div>
             <div>
-                <center>感谢各位朋友的慷慨打赏, 打赏后联系 <陈尚委> 704564722 <br> <br></center>
+                <center>感谢热心朋友对Jumpserver的热心捐助!<br> <br></center>
                 <center>
                     <b>
-                    <div class="row m-b-lg">
-                        <div class="col-lg-3 col-lg-offset-3">
-                        <table>
-                            <tr>
-                                <td><img src="img/mg_logo.svg" width="152" height="48"></td>
-                                <!-- <td ><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;3000元</font></td> -->
-                            </tr>
-                            <tr>
-                            </tr>
-                                <td>&nbsp;</td>
-                            <tr>
-                                <td><img src="img/shterm.jpg" width="152" height="48"></td>
-                                <!-- <td ><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;2000元</font></td> -->
-                            </tr>
-                        </table>
-                        </div>
-                        <div class="col-lg-4">
-                        <table>
-                        <tr>
-                            <td>童戏兔腾(28625xxx)</td>
-                            <!-- <td>200元</td> -->
-                        </tr>
+                    <table>
                         <tr>
                             <td>kaka(330281xxx)</td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>大勇(1002626xxx)</td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>ck(7743681xxx)</td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>devops(135139xxx) </td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>蒲公英(99355xxx)</td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>假想控(704564xxx)</td>
-                            <!-- <td>100元</td> -->
+                            <td>100元</td>
                         </tr>
                         <tr>
                             <td>Yism(348718xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>卫军(56940xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>痞子威(176039xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>富春(2470160xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>博翼枫(58064xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>ゞIT民工(47034xxx)</td>
-                            <!-- <td>100元</td> -->
-                        </tr>
-                        <tr>
-                            <td>咖啡(85339xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>爱无所不在(383740xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>僧哥(328420xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>星辰(370951xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>rainboy(369884xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>軒(46496xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;50元</td> -->
-                        </tr>
-                        <tr>
-                            <td>稻草人(706501xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;40元</td> -->
-                        </tr>
-                        <tr>
-                            <td>左右互搏术(237327xxx)</td>
-                            <!-- <td>&nbsp;&nbsp;20元</td> -->
+                            <td>100元</td>
                         </tr>
                     </table>
-                    </div>
-                 </div>
                    </b>
-               </center>
+               </center> 
             </div>
         </div>
         <div class="row">
@@ -645,10 +543,8 @@
             <div class="col-lg-3 col-lg-offset-3">
                 <address>
                     <strong><span class="navy">Jumpserver.org Organization</span></strong><br/>
-                    QQ群:399218702<br/>
+                    QQ群: 390139816<br/>
                     官网: http://jumpserver.org<br/>
-                    论坛: http://bbs.jumpserver.org<br/>
-                    wiki:https://github.com/jumpserver/jumpserver/wiki<br/>
                     <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
                 </address>
             </div>
