@@ -113,10 +113,14 @@ h1 {
   display: block;
   font-size: 14px;
   background: #1ab394;
-  padding: 15px 20px 15px 20px;
+  padding: 5px 10px 5px 10px;
   border-radius: 0 0px 5px 5px;
   font-weight: 700;
   transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-default .navbar-brand > img {
+  height: 40px;
 }
 .navbar-scroll.navbar-default .nav li a {
   color: #676a6c;
@@ -137,12 +141,17 @@ h1 {
   padding: 20px 10px;
 }
 .navbar.navbar-scroll .navbar-brand {
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
   font-size: 12px;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
   height: auto;
 }
+
+.navbar.navbar-scroll .navbar-brand > img {
+    height: 40px;
+}
+
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
 .header-back {
