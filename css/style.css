@@ -164,12 +164,18 @@ h1 {
 .header-back.two {
   background: url('../img/header_two.jpg') 50% 0 no-repeat;
 }
+.header-back.three {
+  background: url('../img/header_three.jpg') 50% 0 no-repeat;
+}
 
 @media only screen and (min-width: 1920px){
   .header-back.one {
     background-size: 100%;
   }
   .header-back.two {
+    background-size: 100%;
+  }
+  .header-back.three{
     background-size: 100%;
   }
 }
