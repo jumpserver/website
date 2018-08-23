@@ -1063,3 +1063,54 @@ section.comments {
     visibility: hidden;
   }
 }
+
+.content-wrap {
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.content-wrap .entry-title {
+  display: table;
+  font-size: 110%;
+  height: 100%;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0;
+}
+.case-case-one {
+  background-color: white;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 20px;
+  height: 150px;
+  padding: 0;
+}
+.case-case-two {
+  margin-top: 50px;
+  text-align: center;
+}
+.featured-image {
+  display: table-cell;
+  position: relative;
+  transition: opacity .25s ease-in-out, background .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0;
+}
+.featured-image:hover{
+  background-color: #1d1d1d;
+  opacity: .8;
+}
+.case-case-image {
+  max-width: 200px;
+  max-height: 52px;
+}
+
