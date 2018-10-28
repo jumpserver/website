@@ -312,9 +312,12 @@ h1 {
   margin-top: 15px;
 }
 
-/*.features small,h1,h2,h3 {*/
-  /*color: #1ab394;*/
-/*}*/
+.features h1{
+  color: #1ab394;
+}
+.features small{
+  color: #1ab394;
+}
 .features h2 {
   font-size: 18px;
   margin-top: 5px;
