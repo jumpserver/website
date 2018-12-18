@@ -119,8 +119,8 @@ h1 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar-default .navbar-brand > img {
-  height: 40px;
+.navbar-default .navbar-brand > img{
+  height: 55px;
 }
 .navbar-scroll.navbar-default .nav li a {
   color: #676a6c;
@@ -149,7 +149,7 @@ h1 {
 }
 
 .navbar.navbar-scroll .navbar-brand > img {
-    height: 40px;
+    height: 55px;
 }
 
 /* BACKGROUNDS SLIDER
