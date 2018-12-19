@@ -1253,12 +1253,22 @@ section.comments {
   padding: 2px 15px 2px 15px;
 }
 
+
+
 .features-third-td-background-style {
   background-color: #f1f1f1;
   color: #666;
   font-face: PingFangSC-Light;
   font-size: 12px;
   padding: 5px 15px 5px 15px;
+}
+
+.features-outline-td-background-style{
+  background-color: #d0e9c6;
+  color: #666;
+  font-face: PingFangSC-Light;
+  font-size: 14px;
+  padding: 2px 15px 2px 15px;
 }
 
 .subscription-level-tr-border td, .subscription-level-tr-border th {
