@@ -50,12 +50,12 @@
     <!-- Colors -->
     <link href="../css/fit2cloud/blue.css?version=20181128" rel="stylesheet">
     <style>
-    .hero-area.purchase{
-        background-image: url(../img/640.jpg) !important;
-        height: 60vh;
-        /* background-size: contain; */
-        background-size: 100% 100%;
-    }
+        .hero-area.purchase {
+            background-image: url(../img/640.jpg) !important;
+            height: 60vh;
+            /* background-size: contain; */
+            background-size: 100% 100%;
+        }
     </style>
 </head>
 
@@ -85,8 +85,14 @@ Fixed Navigation
                         <li><a class="page-scroll" href="https://github.com/jumpserver/jumpserver.git">Github</a></li>
                         <li><a class="page-scroll" href="../index.html#demo">演示体验</a></li>
                         <li><a class="page-scroll" href="../http://docs.jumpserver.org/">文档</a></li>
-                        <li><a class="page-scroll" href="../purchase.html">软件订阅服务</a></li>
-                        <li><a class="page-scroll" href="../hardware.html">一体机</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">商业服务<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="purchase.html">软件订阅服务</a></li>
+                                <li><a class="page-scroll" href="hardware.html">一体机</a></li>
+                            </ul>
+                        </li>
                         <li><a class="page-scroll" href="#">客户案例</a></li>
                         <li><a class="page-scroll" href="https://jinshuju.net/f/sQ91MK">技术咨询</a></li>
                         <li><a class="page-scroll" href="../index.html#contact">联系我们</a></li>
@@ -116,7 +122,8 @@ End Fixed Navigation
         </div>
     </section>
     <span class="anchor"></span>
-    <section class="services section" style="padding-bottom: 50px;padding-top: 50px;background: #FFFFFF; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <section class="services section"
+        style="padding-bottom: 50px;padding-top: 50px;background: #FFFFFF; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left">
@@ -130,7 +137,8 @@ End Fixed Navigation
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
                         <!-- <img src="../img/640.jpg" alt=""> -->
-                        <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left; margin-top: 20px;">
+                        <p
+                            style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left; margin-top: 20px;">
                             为了适应当前企业IT云化的大背景，推动整体IT建设更进一步，江苏农信于2016年启动省农信行业云建设的调研和规划，并与2017和2018年进行大规模行业云建设。在整个农信行业云建设过程中，江苏农信非常重视行业云的安全建设，其中就包括云主机的运维安全管理（即堡垒机）。
                         </p>
                         <br>
