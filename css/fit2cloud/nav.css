@@ -21,7 +21,13 @@
     max-width: 300px;
     max-height: 100px;
 }
-
+.case-case-image-2{
+  max-width: 200px;
+  max-height: 200px;
+}
+.case-case-three{
+  text-align: center;
+}
 .case-case-rewrite{
   margin-top: 20px;
   text-align: center;
