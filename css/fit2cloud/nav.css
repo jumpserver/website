@@ -16,8 +16,16 @@
     letter-spacing: 1px;
     transition: .2s ease-in-out 0s;
   }
-  
 
+.special_image{
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.case-case-rewrite{
+  margin-top: 20px;
+  text-align: center;
+}
   .navigation .nav .open > a {
     background: none;
   }
