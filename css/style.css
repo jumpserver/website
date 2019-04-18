@@ -169,6 +169,9 @@ h1 {
   background: url('../img/header_five.jpg') 50% 0 no-repeat;
 }
 
+.header-back.five {
+  background: url('../img/CL100P.jpg') 50% 0 no-repeat;
+}
 .header-back.three {
   background: url('../img/header_four.jpg') 50% 0 no-repeat;
 }
