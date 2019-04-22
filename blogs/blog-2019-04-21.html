@@ -58,13 +58,16 @@
             /* background-size: contain; */
             background-size: 100% 100%;
         }
-        .hero-area:before{
+
+        .hero-area:before {
             background: rgba(0, 0, 0, 0) !important;
         }
-        .navbar-brand{
+
+        .navbar-brand {
             background: rgba(0, 0, 0, 0) !important;
         }
-        .navbar-scroll >div > div > a{
+
+        .navbar-scroll>div>div>a {
             background: #1ab394 !important;
         }
     </style>
@@ -78,7 +81,7 @@ End Preloader
     <!--
 Fixed Navigation
 ==================================== -->
-<div class="navbar-wrapper">
+    <div class="navbar-wrapper">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -108,8 +111,8 @@ Fixed Navigation
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">客户案例<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="#">江苏农信</a></li>
-                                <li><a class="page-scroll" href="/blogs/blog-2019-04-21.html">东方明珠</a></li>
+                                <li><a class="page-scroll" href="/blogs/blog-2019-04-15.html">江苏农信</a></li>
+                                <li><a class="page-scroll" href="#">东方明珠</a></li>
                             </ul>
                         </li>
                         <li><a class="page-scroll" href="https://jinshuju.net/f/sQ91MK">技术咨询</a></li>
@@ -148,81 +151,82 @@ End Fixed Navigation
                     <!-- section title -->
                     <div class="title text-center" style="padding-bottom: 30px">
                         <div id="title" class="wow fadeInUp text-center"
-                            style="font-size: 35px; font-weight: 800;letter-spacing:2px;padding-bottom:30px" data-wow-duration=".5s"
-                            data-wow-delay=".3s" >Jumpserver堡垒机助力江苏农信行业云安全运维
+                            style="font-size: 35px; font-weight: 800;letter-spacing:2px;padding-bottom:30px"
+                            data-wow-duration=".5s" data-wow-delay=".3s">东方明珠通过Jumpserver堡垒机高效管控异构化、分布式云端资产
                         </div>
                     </div>
                     <div class="title text-center" style="padding-bottom: 30px">
+
+                        <p
+                            style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left; margin-top: 20px;">
+                            东方明珠新媒体股份有限公司（以下简称为东方明珠）拥有国内最大的多渠道视频集成与分发平台及丰富的文化娱乐消费资源，为用户提供丰富多元、特色鲜明的视频内容服务及一流的视频购物、文旅消费、影视剧及游戏等文娱产品，是上海广播电视台、上海文化广播影视集团有限公司（SMG）旗下统一的产业平台和资本平台。
+                        </p>
+                        <p
+                            style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left; margin-top: 20px;">
+                            东方明珠注重企业IT建设，是国内最早大规模采纳公有云服务的文化传媒企业之一。通过在内部成立独立云平台事业部的方式，东方明珠稳步推进企业云平台的建设，并持续扩展云平台在的使用范围。目前，东方明珠正通过混合云的建设积极推动企业IT的云化转型，并通过混合云服务体系面向整个集团提供高效、灵活的企业级云服务。
+                        </p>
                         <div
                             style="font-size: 22px;letter-spacing: 0;text-align: center;line-height: 38px;font-weight: 800;">
-                            背景和需求
+                            客户挑战
                         </div>
                         <div class="border"></div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
-                        <!-- <img src="../img/640.jpg" alt=""> -->
                         <p
                             style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left; margin-top: 20px;">
-                            为了适应当前企业IT云化的大背景，推动整体IT建设更进一步，江苏农信于2016年启动省农信行业云建设的调研和规划，并与2017和2018年进行大规模行业云建设。在整个农信行业云建设过程中，江苏农信非常重视行业云的安全建设，其中就包括云主机的运维安全管理（即堡垒机）。
+                            随着企业IT云化转型的深入，混合云建设成为东方明珠的首选方向。作为广播电视文化的传播平台，其信息系统的安全性至关重要。针对性地构建面向混合云架构的安全合规体系，是东方明珠云平台建设的重要内容。
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            相对于传统数据中心的堡垒机方案，行业云对此的要求有较为显著的不同，具体表现为以下几个方面：
+                            作为东方明珠云平台安全体系的重要部件，堡垒机承担着在混合云环境下进行安全合规审计的关键作用，而其建设的过程又面临着诸多挑战：
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            1. <font color="#19B394">堡垒机需要提供多租户体系，并和行业云的多租户体系进行对接，从而将堡垒机以自助服务的方式提供给辖内60余家农商行用户使用。</font>
-                            对照传统堡垒机解决方案，它们普遍缺少对多租户的支持。如果在行业云内使用会需要给每个租户独立部署一套，导致整个解决方案的运行和维护成本随着规模扩大快速增加；
+                            <font color="#19B394">1. 基础设施高度异构化、分布范围广。</font>
+                            首先，混合云平台的建设引入了大量不同类型的IT基础设施，包括企业内部的传统物理设备、虚拟化平台、私有云，以及广泛采用的公有云。这要求堡垒机能够在资产接入和管理上有较好的适配性和灵活性，最好能够适配云平台的API接口，降低平台资源管理的难度；另一方面，由于文化传媒企业需要通过大量的CDN边缘节点来保障视频流播放的流畅性，导致IT资产分布范围广，管理也相对分散。基于堡垒机构建的运维安全审计系统需要提供多级授权管理体系，以适配东方明珠当前的IT管理模式；
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            2. <font color="#19B394">作为江苏农信行业云提供的一个服务，希望堡垒机能和江苏农信行业云形成有机结合，提升整体使用体验。</font>
-                            行业云和堡垒机需要自动同步资产，统一管理访问授权关系以及访问账号信息。这需要堡垒机能够提供完善的API接口并能实现和云管理平台的无缝对接；
+                            <font color="#19B394">2. 混合云中的主机规模持续增长，需要堡垒机具备充分的可扩展性。</font>
+                            随着业务的快速增长，堡垒机需要管理的主机规模也在快速增加。同时，运维安全管理的工作量也在迅速攀升。这需要堡垒机能够对分布式架构提供良好的支持，并通过水平扩容来支持不断增加的资产和不断提升的并发数。管理规模的增长也带来了堡垒机授权模式的挑战，传统按管理节点、并发数进行授权的模式给企业带来昂贵的采购和维护成本；
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            3. <font color="#19B394">堡垒机审计资料（录屏录像文件）的保存是其一个重要技术要求。</font>
-                            考虑到行业云的建设规模以及云存储的显著优势，行业云的堡垒机需要支持将其产生的大量审计资料自动存储在行业云的对象存储服务中，保障整个堡垒机数据存储方案的可扩展、高可靠和低成本。
+                            <font color="#19B394">3. 传统堡垒机方案用户接入门槛高，维护成本偏高。</font>
+                            越来越多的企业需要堡垒机能够提供传统客户端+Web接入的双重模式，尤其是Web接入的需求越来越强烈。传统方案在Web接入方式上普遍采用较为原始的浏览器插件模式，导致大量的浏览器插件不匹配、用户无法升级浏览器等影响用户使用体验的问题，严重影响了堡垒机的运营效率。
                         </p>
                         <br>
-                        <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            4. <font color="#19B394">堡垒机服务能够支持租用或者软件订阅的服务模式。</font>
-                            传统商业堡垒机普遍采用一次买断的模式，在江苏农信行业云建设初期面临一次性买断超过60家农商行使用授权的大额开支。相比之下，云上普遍使用的订阅模式是更希望采纳的模式。
-                        </p>
-                        <br>
-                        <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            综合以上几点，适合江苏农信行业云建设的堡垒机方案是一个云化的堡垒机方案，即云堡垒机。需要其无论从产品架构还是商业模式上都实现“云化”。客户在认真考察多家堡垒机解决方案，经过严格的测试和试用后，选择了FIT2CLOUD飞致云提供的Jumpserver运维安全审计解决方案作为其行业云堡垒机的解决方案。
-                        </p>
                     </div>
-                    <p style="text-align:center;padding-bottom:30px"><img src="../img/640.jpg"></p>  
+                    <!-- <p style="text-align:center;padding-bottom:30px"><img src="../img/640.jpg"></p> -->
                     <div class="title text-center" style="padding-bottom: 30px">
                         <div
                             style="font-size: 25px;letter-spacing: 0;text-align: center;line-height: 38px;font-weight: 800;">
-                            Jumpserver 运维安全审计解决方案
+                            Jumpserver 解决方案
                         </div>
                         <div class="border"></div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            Jumpserver
-                            是全球首款完全开源的堡垒机，是符合4A（认证Authentication、账号Account、授权Authorization、审计Audit）的专业运维审计系统。Jumpserver
-                            使用Python/Django进行开发，遵循Web 2.0 规范，配备了业界领先的Web Terminal 解决方案，交互界面美观、用户体验优异。
+                            通过技术选型，东方明珠选择了使用Jumpserver堡垒机应对其在运维安全审计方面的挑战。通过采购Jumpserver堡垒机软件订阅服务，东方明珠有效控制了堡垒机部署与运营的成本。
                         </p>
                         <br>
 
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            架构方面，JumpServer
-                            采用分布式架构，支持多机房跨区域部署，可横向扩展、无并发访问限制。Jumpserver还支持对主流网络设备、Windows服务器、Linux服务器进行运行维护操作审计。
+                            作为全球首款完全开源、符合4A（认证Authentication、授权Authorization、账号Accounting、审计Auditing）规范的运维安全审计系统，Jumpserver在资产管理方面不设定并发和资产数量限制，同时支持水平扩容。
+                        </p>
+                        <br>
+                        <p style="text-align:center;padding-bottom:30px"><img src="../img/dfmz.jpg"></p>
+                        <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
+                            东方明珠的堡垒机采用的是高可用部署模式，实现鉴权和接入端的分离，支持接入端的水平扩展。借助Jumpserver软件订阅服务所搭载的X-Pack增强包，东方明珠还实现了堡垒机授权管理模式与当前多级分级授权管理体系的无缝匹配。同时，对接公有云接口，一键导入公有云资源，实时同步公有云上的资产情况。
                         </p>
                         <br>
 
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            作为Jumpserver的发起厂商，FIT2CLOUD提供Jumpserver软件订阅服务，包括Jumpserver原厂商业支持服务和X-Pack增强包。其中X-Pack增强包提供满足江苏农信行业云需求的多租户体系，更加安全的双重因子认证，以及与行业云对接的扩展插件。
+                            X-Pack增强包是Jumpserver面向企业应用场景的商业功能软件包，为用户提供组织管理、多云资产纳管、MFA（多因子认证）等功能。
                         </p>
                         <br>
-
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            Jumpserver原厂商业支持服务提供7x24的线上支持以及到场培训和救援服务，保障江苏农信行业云堡垒机服务的安全可靠运行。Jumpserver云堡垒机已经通过公安部相关安全认证，获得了《计算机信息系统安全专用产品销售许可证》，能满足金融行业对于安全产品的合规等保要求。
+                            Jumpserver软件订阅服务由FIT2CLOUD专业服务团队提供产品的安装、部署和日常维护服务，以及现场的培训和紧急救援服务，有效保障系统的安全可靠运行。
                         </p>
                         <br>
                     </div>
@@ -235,19 +239,23 @@ End Fixed Navigation
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            1. <font color="#19B394">优秀用户体验的自助式云堡垒机服务</font> 通过Jumpserver X-Pack
-                            增强包提供的多租户功能以及云平台对接插件，江苏农信行业云的堡垒机以自助化、一体化的方式提供给超过60家的农商行使用。借助Jumpserver优秀的Web
-                            Terminal界面，让农商行用户可以仅使用主流浏览器就能够完成对于Windows和Linux操作系统进行安全、流畅的访问和操作；
+                            <font color="#19B394">1. 与企业云平台无缝对接，堡垒机有机融合到企业云平台的整体框架中。</font>
+                            随着企业云平台的不断延伸和发展，各种云主机资产都能通过接口和插件的模式自动纳入到堡垒机的安全合规管理体系中；
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            2. <font color="#19B394">灵活的部署方式及强大的扩展能力</font>
-                            通过Jumpserver自身支持的分布式部署方式，将堡垒机的管理端和连接端进行解耦，并且随着使用规模的扩展可以水平扩展连接端，可以保障堡垒机支持行业云接下来快速发展的扩展能力。在存储侧，当前方案对接行业云内的对存储服务，利用其容量水平扩容和强大数据生命周期管理能力来保障云堡垒机方案在存储侧的扩展能力；
+                            <font color="#19B394">2. 优秀的用户接入体验。</font>
+                            由于传统堡垒机存在多种接入限制，导致其资产管理的覆盖面和维护成本效果不理想。Jumpserver堡垒机既可以支持技术人员通过浏览器零成本接入，也支持各种登录客户端，客户可以保留传统的使用习惯；
                         </p>
                         <br>
                         <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
-                            2. <font color="#19B394">合理可以预期的建设成本以及可靠的商业支持</font>
-                            通过订阅FIT2CLOUD提供的Jumpserver软件订阅服务，江苏农信获得来自Jumpserver的原厂商业支持服务，保障整个方案的运行安全。同时，由于该订阅服务不限制客户使用规模，并以订阅模式收取费用，让整个方案初始建设成本很低，且未来支出成本可预期，不会随规模增长而产生额外成本。
+                            <font color="#19B394">3. 云平台运维安全审计成本可预期。</font>
+                            由于Jumpserver堡垒机采用了软件订阅服务模式，用户的使用成本不会随着云平台资产的管理规模和用户数量增长而增加。这种授权方式非常适用于管理规模大、业务增长快的应用场景。
+                        </p>
+                        <br>
+                        <p style="width:100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: left;">
+                            <!-- <font color="#19B394">3. 云平台运维安全审计成本可预期。</font> -->
+                            在完成堡垒机的部署和云资源的接入管理之后，东方明珠还计划接入Jumpserver堡垒机的更多高级功能，例如基于Ansible的自动化运维功能，将主机安全审计和主机高效运维无缝结合。
                         </p>
                         <br>
                     </div>
