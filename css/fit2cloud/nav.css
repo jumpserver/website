@@ -1,13 +1,13 @@
 .navigation {
     transition: .3s all;
-  }
-  
-  .navigation .logo-default {
+}
+
+.navigation .logo-default {
     display: none;
-  }
-  
-  
-  .navigation .navbar-nav > li > a {
+}
+
+
+.navigation .navbar-nav>li>a {
     color: #fff;
     font-size: 14px;
     line-height: 26px;
@@ -15,69 +15,135 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: .2s ease-in-out 0s;
-  }
+}
 
-.special_image{
+.special_image {
     max-width: 300px;
     max-height: 100px;
 }
-.case-case-image-2{
-  max-width: 200px;
-  max-height: 200px;
+
+.case-case-image-2 {
+    max-width: 200px;
+    max-height: 200px;
 }
-.case-case-three{
-  text-align: center;
+
+.case-case-three {
+    text-align: center;
 }
-.case-case-rewrite{
-  margin-top: 20px;
-  text-align: center;
+
+.case-case-rewrite {
+    margin-top: 20px;
+    text-align: center;
 }
-  .navigation .nav .open > a {
+
+.navigation .nav .open>a {
     background: none;
-  }
-  
-  .navigation .dropdown {
+}
+
+.navigation .dropdown {
     padding: 0;
-  }
-  
-  .navigation .dropdown .dropdown-menu {
+}
+
+.navigation .dropdown .dropdown-menu {
     border-radius: 0;
     -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     -webkit-transform: scale(1, 0);
-            transform: scale(1, 0);
+    transform: scale(1, 0);
     background-color: #1C1D20;
     display: block;
     opacity: 1;
-    transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-    transition: transform 0.3s,opacity 0.3s ease-in-out;
-    transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-  }
-  
-  .navigation .dropdown .dropdown-menu li a {
+    transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s ease-in-out;
+    transition: transform 0.3s, opacity 0.3s ease-in-out, -webkit-transform 0.3s;
+}
+
+.navigation .dropdown .dropdown-menu li a {
     padding: 8px 15px;
     color: #9d9d9d;
-  }
-  
-  .navigation .dropdown .dropdown-menu li a:hover {
+}
+
+.navigation .dropdown .dropdown-menu li a:hover {
     padding-left: 20px;
     background: transparent;
     color: #fff;
-  }
-  
-  .navigation .dropdown:hover .dropdown-menu {
-    transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-    transition: transform 0.3s,opacity 0.3s ease-in-out;
-    transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
+}
+
+.navigation .dropdown:hover .dropdown-menu {
+    transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s ease-in-out;
+    transition: transform 0.3s, opacity 0.3s ease-in-out, -webkit-transform 0.3s;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
     opacity: 0.9;
-  }
+}
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .navbar-right .dropdown-menu {
         left: -30px;
     }
+}
+
+/* Customers */
+.post-item {
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.class_outer {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.class_cover {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, .70);
+    color: #FFFFFF;
+    font-size: 23px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.case-one {
+    font-size: 20px;
+
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 32px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.three.solution {
+
+    margin: 5px 0;
+}
+
+.three {
+    padding-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.btn-rewrite{
+  background: #1ab394;
+  border: 1px solid #1ab394;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.btn-rewrite:link,.btn-rewrite:hover,.btn-rewrite:visited,.btn-rewrite:active{
+  color: #ffffff;
+  text-decoration: none;
 }
