@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jumpserver 是全球首款完全开源的堡垒机，多云环境下更好用的堡垒机，使用GNU GPL v2.0开源协议，是符合 4A 的专业运维安全审计系统。">
-    <meta name="keywords" content="Jumpserver, 开源堡垒机, 堡垒机, 跳板机, 运维审计系统, 运维安全审计, 运维安全审计系统，多云">
-    <meta name="author" content="北京堆栈科技有限公司">
-    <!-- Add Your favicon here -->
-    <!-- <link rel="icon" href="img/favicon.ico" > -->
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Jumpserver 是全球首款完全开源的堡垒机，使用GNU GPL v2.0开源协议，是符合 4A 的专业运维安全审计系统。">
+    <meta name="keywords" content="Jumpserver, 开源堡垒机, 堡垒机, 跳板机, 运维审计系统, 运维安全审计, 运维安全审计系统">
+    <meta name="author" content="杭州飞致云信息科技有限公司">
 
     <title>Jumpserver - 开源堡垒机 - 官网</title>
+
+
+    <!-- Mobile Specific Meta
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <!-- REVOLUTION STYLE SHEETS -->
+    <!--<link rel="stylesheet" type="text/css" href="../plugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">-->
+    <!-- Themefisher Icon font -->
+    <!--<link rel="stylesheet" href="../plugins/themefisher-font/style.css">-->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,22 +44,22 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css?version=20181218" rel="stylesheet">
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?8e7481db66d42e77c1d12ca9ae1e88b5";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })(); 
-    </script>
+    <!-- Main Stylesheet -->
+    <link href="css/style.css?version=20181128" rel="stylesheet">
+
+    <!-- Colors -->
+    <link href="css/fit2cloud/blue.css?version=20181128" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="body">
+
+    <!--
+End Preloader
+==================================== -->
+    <!--
+Fixed Navigation
+==================================== -->
     <div class="navbar-wrapper">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -54,19 +71,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="img/Jumpserverlogonew.png"></a>
+                    <a class="navbar-brand" href="/index.html"><img src="/img/Jumpserverlogonew.png"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse navigation collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="https://github.com/jumpserver/jumpserver.git">Github</a></li>
-                        <li><a class="page-scroll" href="#demo">演示体验</a></li>
+                        <li><a class="page-scroll" href="/index.html#demo">演示体验</a></li>
                         <li><a class="page-scroll" href="http://docs.jumpserver.org/">文档</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">商业产品<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="purchase.html">软件订阅服务</a></li>
-                                <li><a class="page-scroll" href="hardware.html">一体机</a></li>
+                                <li><a class="page-scroll" href="/purchase.html">软件订阅服务</a></li>
+                                <li><a class="page-scroll" href="#">一体机</a></li>
                             </ul>
                         </li>
                         <li><a class="page-scroll" href="/customers.html">客户案例</a></li>
@@ -79,154 +96,89 @@
                             </ul>
                         </li> -->
                         <li><a class="page-scroll" href="https://jinshuju.net/f/sQ91MK">技术咨询</a></li>
-                        <li><a class="page-scroll" href="#contact">联系我们</a></li>
+                        <li><a class="page-scroll" href="/index.html#contact">联系我们</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#inSlider" data-slide-to="1"></li>
-            <li data-target="#inSlider" data-slide-to="2"></li>
-            <li data-target="#inSlider" data-slide-to="3"></li>
-            <li data-target="#inSlider" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="container">
+    <!--
+End Fixed Navigation
+==================================== -->
 
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back five"></div>
-            </div>
-            <div class="item">
-                <div class="container">
+    <section class="hero-area purchase">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <div id="title" class="wow fadeInUp text-center"
+                            style="font-size: 35px; font-weight: 800;letter-spacing:2px;" data-wow-duration=".5s"
+                            data-wow-delay=".3s">客户案例
+                        </div>
+                        <!-- <p style="font-size: 14px;color: #FFFFFF;width:100%;letter-spacing: 0;text-align: center;line-height: 20px;padding-top: 20px"
+                            class="wow fadeInUp text-center" data-wow-duration=".5s" data-wow-delay=".5s">
+                            Jumpserver&nbsp;服务团队具备混合 IT环境、跨云环境大规模部署与运营经验，服务的客户覆盖金融、证券、制造、媒体、能源、电信、互联网等行业。
+                        </p> -->
 
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back four"></div>
-            </div>
-            <div class="item">
-                <div class="container">
-
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back three"></div>
-            </div>
-            <div class="item">
-                <div class="container">
-                    <div class="carousel-caption blank">
-                        <h1>完全开源 符合 4A 机制的堡垒机</h1>
-                        <p>改变世界，从一点点开始</p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="https://github.com/jumpserver/jumpserver"
-                                role="button">View Project on GitHub</a>
-                        </p>
-                    </div>
-                    <div class="carousel-image wow zoomIn">
-                        <img src="img/laptop.png" alt="laptop" />
                     </div>
                 </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back one"></div>
-            </div>
-            <div class="item">
-                <div class="container">
-                    <div class="carousel-caption blank">
-                        <h1>领先的 Web terminal 方案</h1>
-                        <p>界面简洁易用，可替代Xshell, secureCRT</p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="https://github.com/jumpserver/jumpserver"
-                                role="button">View Project on GitHub</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back two"></div>
-            </div>
-        </div>
-        <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
 
-
-    <section id="features" class="container services">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>多云环境下更好用的堡垒机</h2>
-                <p>1. 分布式架构设计无限扩展，轻松对接多云资产；</p>
-                <p>2. 支持使用云存储（AWS S3, ES等）存储录像、命令；</p>
-            </div>
-            <div class="col-sm-4">
-                <h2>颠覆传统堡垒机</h2>
-                <p>1. 无主机和并发数量限制，支持水平扩容；</p>
-                <p>2. FIT2CLOUD提供完备的商业服务支持，用户无后顾之忧；</p>
-            </div>
-            <div class="col-sm-4">
-                <h2>极致的用户体验</h2>
-                <p>1. 极致UI体验，完胜传统堡垒机；</p>
-                <p>2. 容器化的部署方式，部署过程方便快捷，可持续升级；</p>
             </div>
         </div>
     </section>
-
-    <section class="container features">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <span class="navy"> 让你体验不一样的跳板机</span> </h1>
-                <p>With automated operations blood, let you experience the different feelling. </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 text-center wow fadeInLeft">
-                <div>
-                    <i class="fa fa-rebel features-icon"></i>
-                    <h2>用户/用户组</h2>
-                    <p> 用户是授权和登录的主体，用户组方便组织授权</p>
+    <span class="anchor"></span>
+    <section class="services section" style="padding-bottom: 50px;padding-top: 50px;background: #FFFFFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <!-- section title -->
+                    <div class="title text-center" style="padding-bottom: 30px">
+                        <div
+                            style="font-size: 35px;letter-spacing: 0;text-align: center;line-height: 38px;font-weight: 800;">
+                            典型案例
+                        </div>
+                        <div class="border"></div>
+                    </div>
+                    <!-- /section title -->
                 </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-cube features-icon"></i>
-                    <h2>资产/资产树</h2>
-                    <p> 采纳资产树组织资产，管理起来异常方便</p>
-                </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-download features-icon"></i>
-                    <h2>授权规则</h2>
-                    <p>使用资产树授权，当节点资产变化时，自动继承授权.</p>
-                </div>
-            </div>
-            <div class="col-md-6 text-center  wow zoomIn">
-                <img src="img/perspective.png" alt="dashboard" class="img-responsive">
-            </div>
-            <div class="col-md-3 text-center wow fadeInRight">
-                <div>
-                    <i class="fa fa-edit features-icon"></i>
-                    <h2>会话记录/命令记录</h2>
-                    <p>实时监控在线用户操作，支持录像回放，可中断用户不良操作</p>
-                </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-binoculars features-icon"></i>
-                    <h2>跨云部署</h2>
-                    <p>一个中心节点，各区域部署接入节点，统一管理</p>
-                </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-gear features-icon"></i>
-                    <h2>Web terminal</h2>
-                    <p>领先的Web Terminal方案，支持Windows</p>
-                </div>
-            </div>
-        </div>
+                <article class="col-md-6 col-sm-6 col-xs-12 clearfix ">
+                    <div class="post-item">
+                        <div class="media-wrapper class_outer">
+                            <img src="img/jsnx-blog.jpg" alt="amazing caves coverimage" class="img-responsive"
+                                style="  position: relative;overflow: hidden;">
+                            <span class="class_cover">江苏农信</span>
+                        </div>
+                        <div class="content">
+                            <div class="case-one">江苏农信：Jumpserver堡垒机助力行业云安全运维</div>
+                            <div class="three solution">
+                                全国农村信用社首家改革试点单位江苏农信通过Jumpserver 堡垒机实现对现有混合基础设施资源的统一管理，向混合云架构转型。
+                            </div>
+                            <a class="btn btn-rewrite" target="_blank"
+                                href="/blogs/blog-2019-04-15.html"
+                                style="padding: 6px 12px">了解更多</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-6 col-sm-6 col-xs-12 clearfix ">
+                    <div class="post-item">
+                        <div class="media-wrapper class_outer">
+                            <img src="img/dfmz-blog.jpg" alt="amazing caves coverimage" class="img-responsive"
+                                style="  position: relative;overflow: hidden;">
+                            <span class="class_cover">东方明珠</span>
+                        </div>
+                        <div class="content">
+                            <div class="case-one">东方明珠：Jumpserver高效管控异构化、分布式云端资产</div>
+                            <div class="three solution">
+                                上海广播电视台、上海文化广播影视集团有限公司（SMG）旗下统一的产业平台和资本平台东方明珠选择使用Jumpserver堡垒机应对其在运维安全审计方面的挑战。 </div>
+                            <a class="btn btn-rewrite" target="_blank"
+                                href="/blogs/blog-2019-04-21.html"
+                                style="padding: 6px 12px">了解更多</a>
+                        </div>
+                    </div>
+                </article>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
     </section>
-
     <section id="customer" class="gray-section team">
         <div class="container">
             <div class="row m-b-lg">
@@ -710,364 +662,16 @@
 
     </section>
 
-    <section class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h1>功能描述</h1>
-                    <!-- <p>. </p> -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 features-text">
 
-                    <h2>用户管理 </h2>
-                    <i class="fa fa-users big-icon pull-right"></i>
-                    <p>用户管理模块，负责添加修改删除用户，把用户划分不同的用户组，方便将来授权主机.</p>
-                </div>
-                <div class="col-lg-5 features-text">
-
-                    <h2>资产管理</h2>
-                    <i class="fa fa-bolt big-icon pull-right"></i>
-                    <p>资产管理模块，负责管理各类资产，采纳资产数方便组织和授权.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 features-text">
-                    <h2>授权管理</h2>
-                    <i class="fa fa-clock big-icon pull-right"></i>
-                    <p>授权管理模块，以资产树方式授权资产，效率高</p>
-                </div>
-                <div class="col-lg-5 features-text">
-                    <h2>日志审计 </h2>
-                    <i class="fa  fa-chart-bar big-icon pull-right"></i>
-                    <p>日志审计模块，监控用户操作，统计用户操作记录，可中断用户不良危险操作.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="demo" class="gray-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h1>演示体验</h1>
-                    <!-- <p>. </p> -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 features-text">
-
-                    <div>
-
-                        <video style="max-width: 100%" id="intro-video" class="" controlslist="nodownload" preload=""
-                            controls=""
-                            src="https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/tools/Jumpserver%20%E4%BB%8B%E7%BB%8Dv1.4.mp4"></video>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-5 features-text">
-
-                    <a class="btn btn-primary" href="https://demo.jumpserver.org/"> 在线体验</a>
-                    <p></p>
-                    <p></p>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-
-    <section id="team" class="team">
+    <section id="contact" class="gray-section contact" style="margin-top: 0px;">
         <div class="container">
             <div class="row m-b-lg">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1>团队成员</h1>
-                    <p>感谢团队成员付出，才有了Jumpserver.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/avatar3.jpg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">广宏伟</span> (老广)</h4>
-                        <p>Jumpserver项目发起者，资深运维工程师，毕业于著名的新东方烹饪学校，精通八大菜系. </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/liuzheng.jpg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">刘正</span> (liuzheng)</h4>
-                        <p>Jumpserver代码核心贡献者，资深运维工程师，毕业于南少林，擅长打野升级.</p>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/xiaobai.jpeg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">白江杰</span> (小白)</h4>
-                        <p>Jumpserver 主力开发之一，面向对象面向君，不负代码不负卿。</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/mokun.jpeg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">莫鹍</span> (淡定超神)</h4>
-                        <p>代码之神，别看长得胖胖乎乎很可爱，写起代码来连自己都怕。 </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/wangzhen.png" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">王振</span> (王工工)</h4>
-                        <p>正直外表下深藏着一个猥琐的灵魂，王工工会疼爱每一个小bug。</p>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-4 ">
-                    <div class="team-member">
-                        <img src="img/chaocai.jpg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">严恺珺</span> (严排长)</h4>
-                        <p>炊事班老兵，戎马一生，bug无数，不要和我说什么底层框架，老夫敲代码就是一把梭。</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4  ">
-                    <div class="team-member">
-                        <img src="img/lvxiaohu.jpeg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">吕小虎</span> (小虎)</h4>
-                        <p>IT技能样样行，十八般武艺全精通，FIT2CLOUD首席声优，上面视频温柔而性感听到了吗，没错！正是在下。 </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4  ">
-                    <div class="team-member">
-                        <img src="img/zhangbohan.jpeg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">张博瀚</span> (浩瀚)</h4>
-                        <p>东北瑰宝文化的传承者，我郑重说明：一个说不好脱口秀的程序员，绝对不是一个好运营！</p>
-
-                    </div>
-                </div>
-
-                <div class="col-sm-4  ">
-                    <div class="team-member">
-                        <img src="img/wuhanxiaobai.jpeg" class="img-responsive img-circle img-small">
-                        <h4><span class="navy">吴育煌</span> (小白)</h4>
-                        <p>多年网管维护经验，毕业于著名的北大青鸟学校，熟悉Windows、Linux、Mac等系统的开关机。</p>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="timeline gray-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h1>一路走来的我们</h1>
-                    <p>我们不断在改进，同时也在不断发现bug! </p>
-                </div>
-            </div>
-            <div class="row features-block">
-
-                <div class="col-lg-12">
-                    <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>新的征程</h2>
-                                <p>此时此刻只有老广一个人在凌晨一点钟的北京的某个角落默默地撸着代码，进行第一版本jumpserver的构建！
-                                </p>
-                                <span class="vertical-date"> v0.1.0 <br /> <small>2014-10-24</small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-file-alt"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>战友</h2>
-                                <p>一个人的精力总归是有限的，团结业内同仁才能实现更强大的力量.</p>
-                                <span class="vertical-date"> v0.2.0 <br /> <small>2015-08-26</small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-cogs"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>升级打怪</h2>
-                                <p>团队成员从2到10，前后端人员全部到位，功能更加完善. </p>
-                                <span class="vertical-date"> v0.3.0 <br /> <small>2016-04-02</small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-cogs"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>公司</h2>
-                                <p>加入 FIT2CLOUD 大家庭</p>
-                                <span class="vertical-date"> v0.4.0 <br /> <small>2017-07</small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-cogs"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Jumpserver 1.0</h2>
-                                <p>Jumpserver 发布里程碑版本</p>
-                                <span class="vertical-date"> v1.0.0 <br /> <small>2018-03-18</small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-flag"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Jumpserver 软件订阅服务发布</h2>
-                                <p>更好的面向企业用户提供服务。</p>
-                                <span class="vertical-date"> v1.4.3 <br /> <small></small> </span>
-                            </div>
-                        </div>
-
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-flag"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Jumpserver 一体机 CL100P 发布</h2>
-                                <p>为用户提供更便捷的使用体验</p>
-                                <span class="vertical-date"> V1.4.8 <br /> <small>2019-03-01</small> </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-
-
-    <section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow zoomIn">
-                    <i class="fa fa-comment big-icon"></i>
-                    <h1>
-                        我们尽可能不断完善Jumpserver
-                    </h1>
-                    <div class="testimonials-text">
-                        <i>"从项目建立至今，已经历了很多个版本，功能越来越多，也越来完善，同时Bug也越来越多，我们会坚持不懈与Bug作斗争"</i>
-                    </div>
-                    <small>
-                        <strong>2015.4.15 - 老广</strong>
-                    </small>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="service-2 section" style="margin: 50px">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-sm-6 text-left">
-                    <a href="http://www.fit2cloud.com">
-                        <img src="img/purchase/logo-default.svg" height="24px" width="222px" class="inline-block"
-                            alt="">
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <div class="row text-center">
-                        <div class="col-md-12 text-left">
-                            <div class="title">
-                                <br>
-                                <p
-                                    style="width: 100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: justify;">
-                                    FIT2CLOUD（飞致云）创立于2014年，是中国领先的多云管理软件及服务提供商，致力于解决企业多云环境下的管理、安全及应用交付难题，帮助企业“管好云、控好云、用好云”，实现数字化转型和“Fit
-                                    to Cloud”的愿景。
-                                </p>
-                                <br>
-                                <p
-                                    style="width: 100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: justify;">
-                                    2018年5月，FIT2CLOUD 入选 2018 Gartner Cool Vendor，成为首家荣膺 Gartner Cool Vendor
-                                    称号的中国多云管理厂商。FIT2CLOUD 是亚马逊 AWS 合作伙伴网络 APN 的进阶级合作伙伴（Advanced Consulting
-                                    Partner），是中国大陆首家获得 50 项 AWS 认证的企业。 FIT2CLOUD 同时是也是中国大陆首家拥有 20 位以上“红帽 OpenShift
-                                    认证管理员”的企业。
-                                </p>
-                                <br>
-                                <p
-                                    style="width: 100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: justify;">
-                                    FIT2CLOUD 云管平台（CMP）向下纳管异构基础设施并实现统一的安全合规及成本管控，向上为应用开发者提供统一的虚机服务、容器服务等，支持企业从传统 IT
-                                    渐进、无缝地过渡到多云战略。Jumpserver 开源堡垒机为 FIT2CLOUD（飞致云）旗下子品牌。作为全球首款完全开源、符合 4A
-                                    规范的运维安全审计系统，Jumpserver 通过“开源+软件订阅服务”的方式，向企业级客户交付多云环境下更好用的堡垒机。
-                                </p>
-                                <p
-                                    style="width: 100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: justify;">
-                                    FIT2CLOUD
-                                    的研发与服务团队分布在北京、上海、深圳等地，其团队在管理和运营大规模异构基础设施、构建和部署大规模云原生应用和多云应用方面拥有丰富的经验，客户覆盖金融、制造、媒体、能源、电信、互联网等行业。
-                                </p>
-                                <a class="btn btn-primary" href="http://www.fit2cloud.com">了解更多信息</a>
-
-                                <!--<p style="width: 100%;font-size: 16px;color: #333333;letter-spacing: 0;text-align: justify;">-->
-                                <!--<a href="http://www.fit2cloud.com">了解关于我们更多的信息</a>-->
-                                <!--</p>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- End row -->
-        </div> <!-- End container -->
-    </section>
-
-    <section id="contact" class="gray-section contact">
-        <div class="container">
-
-            <div class="row m-b-lg">
-                <div class="col-lg-12 text-center">
-                    <a href="http://www.jumpserver.org">
-                        <img src="img/jumpservergreenlogo.png" class="inline-block" alt="Jumpserver 堡垒机">
-                    </a>
+                    <h1>联系我们</h1>
                     <!-- <p>.</p> -->
                 </div>
             </div>
-
             <div class="row m-b-lg">
                 <div class="col-lg-2 col-lg-offset-2">
                     <p class="text-center">
@@ -1115,6 +719,15 @@
         </div>
     </section>
 
+
+    <!-- end Footer Area
+========================================== -->
+
+    <!--
+Essential Scripts
+=====================================-->
+
+    <!-- Main jQuery -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -1122,15 +735,7 @@
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/inspinia.js"></script>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?f100c6db91456185f2bb1aa3f98d7475";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+
 </body>
 
 </html>
