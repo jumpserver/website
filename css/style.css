@@ -1127,6 +1127,15 @@ section.comments {
   margin-top: 50px;
   text-align: center;
 }
+.case-quadrate-image{
+  max-width: 200px;
+  max-height: 104px;
+}
+
+.case-quadrate-margin{
+  margin-top: 20px;
+  text-align: center;
+}
 .featured-image {
   display: table-cell;
   position: relative;
