@@ -406,7 +406,7 @@ li.pricing-title {
   padding-top: 80px;
   padding-bottom: 90px;
   background-color: #1ab394;
-  background-image: url('../img/avatar_all.png');
+  background-image: url('../img/call-to-action-bg.jpg');
 }
 .big-icon {
   font-size: 56px;
@@ -1664,4 +1664,15 @@ section.comments {
   width: 100%;
   position: absolute;
   z-index: -1;
+}
+.btn-main {
+  background: #FC6454;
+  border: 1px solid #FC6454;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
 }
