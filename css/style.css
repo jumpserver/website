@@ -1676,3 +1676,18 @@ section.comments {
   text-transform: uppercase;
   border-radius: 40px;
 }
+
+.customer-logos{
+  display: inline-block;
+  text-align: center;
+  margin: 60px 5px 25px;
+  //background-color: red;
+}
+
+.customer-logos-two{
+  width: 175px;
+  height: 63px;
+  margin: 0 5px 10px;
+  border: 1px solid #dedede;
+  display: inline-block;
+}
