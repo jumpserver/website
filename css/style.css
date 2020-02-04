@@ -1680,7 +1680,7 @@ section.comments {
 .customer-logos{
   display: inline-block;
   text-align: center;
-  margin: 60px 5px 25px;
+  margin: 0 5px 25px;
   //background-color: red;
 }
 
