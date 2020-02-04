@@ -1706,3 +1706,23 @@ section.comments {
 .block-space{
   padding-bottom: 30px;
 }
+.navy-line-new {
+  width: 60px;
+  height: 1px;
+  margin: 60px auto 0;
+  border-bottom: 2px solid #1ab394;
+}
+@media screen and (max-width: 768px){
+  .banner-display{
+    display:none !important;
+  }
+  .navy-line-new {
+    width: 60px;
+    height: 1px;
+    margin: 100px auto 0;
+    border-bottom: 2px solid #1ab394;
+  }
+  .vertical-timeline-content > h2{
+    font-size: 20px;
+  }
+}
