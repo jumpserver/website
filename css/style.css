@@ -1725,4 +1725,11 @@ section.comments {
   .vertical-timeline-content > h2{
     font-size: 20px;
   }
+  .github-star{
+    display:none !important;
+  }
+}
+.github-star{
+  padding: 33px 10px 15px 10px !important;
+  float:right !important;
 }
