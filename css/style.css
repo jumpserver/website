@@ -1383,7 +1383,7 @@ section.comments {
   Services section
 ==================================================================*/
 .services {
-    padding: 100px 0 130px;
+    /*padding: 100px 0 130px;*/
 }
 
 .services .service-block {
@@ -1690,4 +1690,17 @@ section.comments {
   margin: 0 5px 10px;
   border: 1px solid #dedede;
   display: inline-block;
+}
+
+.footer-magin{
+  margin-top: 20px;
+}
+
+.icon-left{
+  width: 100px;
+  height: 100px;
+  float:left!important;
+  font-size: 40px;
+  text-align: center;
+  padding-right: 20px;
 }
