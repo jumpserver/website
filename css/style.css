@@ -178,6 +178,9 @@ h1 {
 .header-back.six {
   background: url('../img/Jumpserver-banner-1.5.6.jpg') 50% 0 no-repeat;
 }
+.header-back.seven {
+  background: url('../img/1920X500-seven.jpg') 50% 0 no-repeat;
+}
 
 @media only screen and (min-width: 1920px){
   .header-back.one {
@@ -417,7 +420,7 @@ li.pricing-title {
   background-image: url('../img/word_map.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 /* Buttons - only primary custom button
 ------------------------- */
