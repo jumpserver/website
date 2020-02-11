@@ -2739,8 +2739,8 @@ navigation.navbar.navbar-fixed-top .header-top {
     height: 120px !important;
     padding: 20px;
     border-radius: 4px;
-    box-shadow: 0 8px 16px 0 rgba(18,97,77,.32);
-    background-image: linear-gradient(109deg,#12614d,#2f9377);
+    box-shadow: 0 8px 16px 0 rgba(46,37,111,.32);
+    background-image: linear-gradient(109deg,#2e256f,#7565ee);
     color: #fff;
     cursor: pointer;
 }
