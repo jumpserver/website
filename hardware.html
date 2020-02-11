@@ -552,6 +552,22 @@ End Fixed Navigation
         </div>
     </section>
 
+    <!--footer-github-start-banner Start-->
+    <section id="footer_start">
+        <a href="https://github.com/jumpserver/jumpserver/" target="_blank">
+            <div class="footer-start-box" >
+                <div class="footer-start-title">
+                    <span role="img" aria-label="celibrate">🎉🎉🎉</span>
+                    如果您喜欢 Jumpserver
+                </div>
+                <p class="footer-start-text">请给我们一个 GitHub Star，给我们一份鼓励。</p>
+                <div class="footer-github-text" > Github Star</div>
+                <div class="footer-start-close" id="close" onclick="close_section()" >x</div>
+            </div>
+        </a>
+    </section>
+    <!--footer-github-start-banner End-->
+
 
     <!-- end Footer Area
 ========================================== -->
@@ -568,6 +584,15 @@ Essential Scripts
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/inspinia.js"></script>
+    <script>
+
+        function close_section(e) {
+            event.stopPropagation();
+            event.preventDefault();
+            $("#footer_start").addClass("hidden");
+        }
+
+    </script>
 
 </body>
 

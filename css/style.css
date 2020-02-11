@@ -1736,3 +1736,45 @@ section.comments {
   padding: 33px 10px 15px 10px !important;
   float:right !important;
 }
+
+.footer-start-box{
+    position: fixed;
+    bottom: 26px !important;
+    right: 22px !important;
+    width: 354px !important;
+    height: 120px !important;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(18,97,77,.32);
+    background-image: linear-gradient(109deg,#12614d,#2f9377);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-start-title{
+    font-weight: 600;
+}
+
+.footer-start-text{
+    color: white
+}
+
+.footer-github-text{
+    position: absolute;
+    bottom: 18px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    z-index: 2;
+}
+
+.footer-start-close{
+    position: absolute;
+    top: 15px;
+    right: 14px;
+    cursor: pointer;
+    z-index: 3;
+    font-size: 16px
+}
