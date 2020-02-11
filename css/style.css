@@ -1742,13 +1742,14 @@ section.comments {
     bottom: 26px !important;
     right: 22px !important;
     width: 354px !important;
-    height: 120px !important;
+    height: 130px !important;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 8px 16px 0 rgba(18,97,77,.32);
     background-image: linear-gradient(109deg,#12614d,#2f9377);
     color: #fff;
     cursor: pointer;
+    text-align: center;
 }
 
 .footer-start-title{
@@ -1760,9 +1761,6 @@ section.comments {
 }
 
 .footer-github-text{
-    position: absolute;
-    bottom: 18px;
-    right: 20px;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
