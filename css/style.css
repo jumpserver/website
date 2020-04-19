@@ -161,22 +161,22 @@ h1 {
 .header-back.one {
   background: url('../img/header_one.jpg') 50% 0 no-repeat;
 }
-.header-back.two {
-  background: url('../img/header_two.jpg') 50% 0 no-repeat;
-}
+/*.header-back.two {*/
+  /*background: url('../img/header_two.jpg') 50% 0 no-repeat;*/
+/*}*/
 
-.header-back.four {
-  background: url('../img/header_five.jpg') 50% 0 no-repeat;
-}
+/*.header-back.four {*/
+  /*background: url('../img/header_five.jpg') 50% 0 no-repeat;*/
+/*}*/
 
-.header-back.five {
-  background: url('../img/cl100p.jpg') 50% 0 no-repeat;
-}
+/*.header-back.five {*/
+  /*background: url('../img/cl100p.jpg') 50% 0 no-repeat;*/
+/*}*/
 .header-back.three {
   background: url('../img/header_four.jpg') 50% 0 no-repeat;
 }
 .header-back.six {
-  background: url('../img/Jumpserver-banner-1.5.6.jpg') 50% 0 no-repeat;
+  background: url('../img/zhibohuifang-1920-500.jpg') 50% 0 no-repeat;
 }
 .header-back.seven {
   background: url('../img/zhibo-1920X500.jpg') 50% 0 no-repeat;
