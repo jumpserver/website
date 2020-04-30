@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<html class="no-js lt-ie9 lt-ie8">
+<html class="no-js lt-ie9">
+<html class="no-js">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>JumpServer - 开源堡垒机 - 官网</title>
+	<meta name="description" content="JumpServer 是全球首款完全开源的堡垒机，多云环境下更好用的堡垒机，使用GNU GPL v2.0开源协议，是符合 4A 的专业运维安全审计系统。">
+	<meta name="keywords" content="JumpServer, 开源堡垒机, 堡垒机, 跳板机, 运维审计系统, 运维安全审计, 运维安全审计系统，多云">
+	<meta name="author" content="杭州飞致云信息科技有限公司">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo/js-logo-favicon.ico" />
+	<link rel="stylesheet" href="./plugins/themefisher-font/style.css">
+	<link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./plugins/lightbox2/dist/css/lightbox.min.css">
+	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel='stylesheet prefetch' href='./css/slick.css'>
+    <link rel="stylesheet" href="./css/mega.css">
+	<link rel="stylesheet" type="text/css" href="./css/colors/green.css" title="light-green">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147297392-3"></script>
+    <script src="js/mega.js"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147297392-3');
+
+        function close_section(e) {
+            event.stopPropagation();
+            event.preventDefault();
+            $("#footer_start").addClass("hidden");
+        }
+	</script>
+
+</head>
+
+<body id="body">
+	<header class="navigation navbar navbar-fixed-top">
+		<svg class="hidden-print" aria-hidden="true" style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<defs>
+				<symbol id="mega-nav-icon-angle" viewBox="0 0 13 7">
+					<polygon points="6.5,6.5 0.7,1.6 1.3,0.8 6.5,5.2 11.7,0.8 12.3,1.6 "></polygon>
+				</symbol>
+				<symbol id="mega-nav-icon-close" viewBox="0 0 13 15">
+					<path vector-effect="non-scaling-stroke" d="M1.1 14L11.9 1M11.9 14L1.1 1"></path>
+				</symbol>
+  			</defs>
+		</svg>
+		<div class="hidden-print mega-nav-sandbox">
+			<div class="mega-nav-banner">
+				<div class="container">
+					<div class="mega-nav-banner-item">
+						<a class="mega-nav-banner-logo" href="https://www.fit2cloud.com/"><img src="images/logo/banner-logo-f2c.png" alt="FIT2CLOUD Logo"></a>
+					</div>
+					<div class="mega-nav-banner-item">
+						<p class="mega-nav-tagline">
+							<span class="visible-xs text-muted">了解飞致云旗下软件产品</span>
+							<span class="hidden-xs text-muted">了解飞致云旗下软件产品</span>
+						</p>
+						<div id="#mega-nav" class="mega-nav">
+                            <button type="button" id="mega-nav-ctrl" class="mega-nav-ctrl">
+								<div class="mega-nav-ctrl-items">
+									<span class="mega-nav-icon-outline">
+										<svg class="mega-nav-icon mega-nav-icon-angle-right" aria-hidden="true">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mega-nav-icon-angle"></use>
+										</svg>
+										<span class="visuallyhidden">Open</span>
+									</span>
+								</div>
+							</button>
+
+							<div id="mega-nav-body-ct" class="mega-nav-body-ct" aria-labelledby="mega-nav-ctrl" style="display: none;">
+								<div class="mega-nav-body">
+									<button type="button" id="mega-nav-close" class="mega-nav-close"><svg class="mega-nav-icon mega-nav-icon-close" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mega-nav-icon-close"></use></svg><span class="visuallyhidden">Close</span></button>
+									<div class="mega-nav-body-header">
+										<div class="mega-nav-body-header-item">
+											<h2 class="mega-nav-h1">我们的软件为您提供了构建、运行、管理和保护企业所需的关键工具</h2>
+											<p class="mega-nav-h2"></p>
+										</div>
+									</div>
+									<div class="mega-nav-body-grid">
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">构建</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://metersphere.io/" class="mega-nav-grid-item mega-nav-grid-item-metersphere">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-ms.png" alt="MeterSphere Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源持续测试平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">BUILD</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+                                        <div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">运行</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://kubeoperator.io/" class="mega-nav-grid-item mega-nav-grid-item-kubeoperator">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-ko.png" alt="KubeOperator Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源容器平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">RUN</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">管理</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://www.fit2cloud.com/" class="mega-nav-grid-item mega-nav-grid-item-fit2cloud">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-f2c.png" alt="JumpServer Logo">
+														</div>
+                                                        <span class="mega-nav-h2">多云管理平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">MANAGE</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<!--<div class="mega-nav-body-grid-item">-->
+											<!--<h3 class="mega-nav-h3">管理</h3>-->
+											<!--<ul class="mega-nav-grid">-->
+												<!--<li>-->
+													<!--<a href="https://www.consul.io" class="mega-nav-grid-item mega-nav-grid-item-fit2cloud">-->
+														<!--<div class="mega-nav-grid-item-img">-->
+															<!--<img src="./images/banner-nav/banner-nav-f2c.png" alt="FIT2CLOUD Logo">-->
+														<!--</div>-->
+                                                        <!--<span class="mega-nav-h2">多云管理平台</span>-->
+														<!--<ul>-->
+															<!--<li><span class="mega-nav-tag">MANAGE</span></li>-->
+														<!--</ul>-->
+													<!--</a>-->
+												<!--</li>-->
+											<!--</ul>-->
+										<!--</div>-->
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">保护</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://www.fit2cloud.com/" class="mega-nav-grid-item mega-nav-grid-item-jumpserver is-active">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-js.png" alt="JumpServer Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源堡垒机</span>
+														<ul>
+															<li><span class="mega-nav-tag">PROTECT</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="mega-nav-body-footer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="clear:both">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- logo -->
+				<a class="navbar-brand logo" href="index.html">
+					<img class="logo-default" src="images/logo/js-logo-default.png" alt="logo" />
+					<img class="logo-white" src="images/logo/js-logo-white.png" alt="logo" />
+				</a>
+				<!-- /logo -->
+			</div>
+			<nav class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav menu">
+					<li><a href="./index.html">首页</a></li>
+					<li><a href="./features.html">功能</a></li>
+					<li><a target="_blank" href="http://jumpserver.readthedocs.io/">文档</a></li>
+					<li><a target="_blank" href="https://github.com/jumpserver/jumpserver/releases">下载</a></li>
+					<li><a target="_blank" href="https://blog.fit2cloud.com/?cat=35">博客</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">商业产品<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="page-scroll" href="https://www.fit2cloud.com/purchase/index.html" style="text-transform: none">JumpServer 软件订阅服务</a></li>
+							<li><a class="page-scroll" href="./hardware.html" style="text-transform: none">JumpServer 一体机</a></li>
+						</ul>
+					</li>
+					<li><a href="#connection">联系我们</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="section banner-area-feature banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <div id="title" class="wow fadeInUp text-center banner-title" data-wow-duration=".5s" data-wow-delay=".3s">
+							功能
+                        </div>
+                        <p class="wow fadeInUp text-center banner-content" data-wow-duration=".5s" data-wow-delay=".5s">
+                            「JumpServer」全面符合 4A 等保规范的堡垒机，快速了解 JumpServer 堡垒机的核心功能及详细的功能列表展示
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!--视频演示 Start-->
+	<section class="promo-video section video-rewrite" id="video">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>演示视频</h2>
+					<p>快速了解 JumpServer 堡垒机的核心功能</p>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<video style="max-width: 100%" id="intro-video" class="" controlslist="nodownload" preload="meta" controls=""
+						   src="https://jumpserver.oss-cn-hangzhou.aliyuncs.com/jms-media/%E3%80%90%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91%E3%80%91201911%20Jumpserver%20%E5%A0%A1%E5%9E%92%E6%9C%BA%20V1.5.0%20%E5%8A%9F%E8%83%BD%E6%BC%94%E7%A4%BA.mp4"></video>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--视频演示 End-->
+
+	<!--功能截屏 Start-->
+	<section class="section" id="screenshot">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>功能截屏</h2>
+					<div class="border"></div>
+				</div>
+			</div>
+		</div>
+		<div id="slider" class="slider">
+			<div>
+				<img data-lazy="./images/js/js-features/02.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/01.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/1.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/2.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/3.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/4.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/5.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/6.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/7.png" alt="">
+			</div>
+			<div>
+				<img data-lazy="./images/js/js-features/8.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!--功能截屏 End-->
+
+	<!--功能列表 Start-->
+	<section class="about-2 section">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>功能列表</h2>
+					<p>完全开源 符合 4A 机制的堡垒机</p>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 subscription-div" style="margin-top: 0px">
+					<table class="subscription-table">
+						<tbody>
+							<tr>
+								<td class="table-title-1" rowspan="8">身份认证<br>Authentication</td>
+								<td class="table-title-2" rowspan="5">登录认证</td>
+								<td>资源统一登录与认证</td>
+						  	</tr>
+						    <tr>
+								<td class="td-bg-color">LDAP/AD 认证</td>
+						  	</tr>
+						    <tr>
+								<td>RADIUS 认证</td>
+						    </tr>
+							<tr>
+								<td class="td-bg-color">OpenID 认证（实现单点登录）</td>
+						  	</tr>
+						  	<tr>
+								<td>CAS 认证 （实现单点登录）</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="2">MFA认证</td>
+								<td class="td-bg-color">MFA 二次认证（Google Authenticator）</td>
+						  	</tr>
+						  	<tr>
+								<td>RADIUS 二次认证</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">登录复核（X-PACK）</td>
+								<td class="td-bg-color">用户登录行为受管理员的监管与控制</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-1 " rowspan="11">账号管理<br>Account</td>
+								<td class="table-title-2" rowspan="2">集中账号</td>
+								<td>管理用户管理</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">系统用户管理</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="4">统一密码</td>
+								<td>资产密码托管</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">自动生成密码</td>
+							</tr>
+						  	<tr>
+								<td>自动推送密码</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">密码过期设置</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="2">批量改密（X-PACK）</td>
+								<td>定期批量改密</td>
+						  	</tr>
+							<tr>
+								<td class="td-bg-color">多种密码策略</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">多云纳管（X-PACK）</td>
+								<td>对私有云、公有云资产自动统一纳管</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">收集用户（X-PACK）</td>
+								<td class="td-bg-color">自定义任务定期收集主机用户</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">密码匣子（X-PACK）</td>
+								<td>统一对资产主机的用户密码进行查看、更新、测试操作</td>
+							</tr>
+						  	<tr>
+								<td class="table-title-1" rowspan="15">授权控制<br>Authorization</td>
+								<td class="table-title-2">多维授权</td>
+								<td class="td-bg-color">对用户、用户组、资产、资产节点、应用以及系统用户进行授权</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="4">资产授权</td>
+								<td>资产以树状结构进行展示</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">资产和节点均可灵活授权</td>
+						  	</tr>
+						  	<tr>
+								<td>节点内资产自动继承授权</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">子节点自动继承父节点授权</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="2">应用授权</td>
+								<td>实现更细粒度的应用级授权</td>
+						  	</tr>
+						  	<tr>
+								<td class="td-bg-color">MySQL 数据库应用、RemoteApp 远程应用（X-PACK）</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">动作授权</td>
+								<td>实现对授权资产的文件上传、下载以及连接动作的控制</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">时间授权</td>
+								<td class="td-bg-color">实现对授权资源使用时间段的限制</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">特权指令</td>
+								<td>实现对特权指令的使用（支持黑白名单）</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">命令过滤</td>
+								<td class="td-bg-color">实现对授权系统用户所执行的命令进行控制</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">文件传输</td>
+								<td>SFTP 文件上传/下载</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">文件管理</td>
+								<td class="td-bg-color">实现 Web SFTP 文件管理</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">工单管理（X-PACK）</td>
+								<td>支持对用户登录请求行为进行控制</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">组织管理（X-PACK）</td>
+								<td class="td-bg-color">实现多租户管理与权限隔离</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-1" rowspan="7">安全审计<br>Audit</td>
+								<td class="table-title-2">操作审计</td>
+								<td>用户操作行为审计</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="2">会话审计</td>
+								<td class="td-bg-color">在线会话内容审计</td>
+						  	</tr>
+						  	<tr>
+								<td>历史会话内容审计</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2" rowspan="2">录像审计</td>
+								<td class="td-bg-color">支持对 Linux、Windows 等资产操作的录像进行回放审计</td>
+						  	</tr>
+						  	<tr>
+								<td>支持对 RemoteApp（X-PACK）、MySQL 等应用操作的录像进行回放审计</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">指令审计</td>
+								<td class="td-bg-color">支持对资产和应用等操作的命令进行审计</td>
+						  	</tr>
+						  	<tr>
+								<td class="table-title-2">文件传输</td>
+								<td>可对文件的上传、下载记录进行审计</td>
+						  	</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--功能列表 End-->
+
+	<section id="footer" class="contact section">
+        <div class="container">
+            <div class="row">
+                <div class="title text-center">
+                    <h1>联系我们</h1>
+					<div class="border"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">官方QQ群(552054376)</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-qq.jpg" alt="官方QQ群" class="img-thumbnail" width="120">
+                    </p>
+
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">微信公众号</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-wechat.png" alt="微信公众号" class="img-thumbnail" width="120">
+                    </p>
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">销售许可信息查询</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-xiaoshouxukeerweima.jpg" alt="销售许可" class="img-thumbnail" width="120">
+                    </p>
+                </div>
+                <div class="col-md-4 col-xs-12 col-md-offset-2" id="connection">
+                    <p>
+                        <strong><span class="navy">联系信息</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                    </p>
+
+					<p style="color: #676a6c">
+						<i class="fa fa-phone fa-sm"></i>
+                        400-052-0755
+                    </p>
+
+					<p style="color: #676a6c">
+						<a href="https://jinshuju.net/f/sQ91MK" style="color: #676a6c">
+							<span>技术咨询</span>
+							<!--</span> https://jinshuju.net/f/sQ91MK-->
+						</a>
+                    </p>
+
+                    <p style="color: #676a6c">
+						<a href="https://jinshuju.net/f/kyOYpi" style="color: #676a6c">
+                        	<span>企业版试用</span>
+							<!--https://jinshuju.net/f/kyOYpi-->
+						</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+	<footer>
+		<div class="footer-bottom">
+			<h5>© 2014-2020 杭州飞致云信息科技有限公司, All Rights Reserved.</h5>
+			<h5><a href="http://www.beian.miit.gov.cn" style="color: #888888">京ICP备15023818号</a></h5>
+		</div>
+	</footer>
+
+
+	<script src="plugins/jquery/dist/jquery.min.js"></script>
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+	<script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
+	<script src="plugins/slick-carousel/slick/slick.min.js"></script>
+	<script src="plugins/mixitup/dist/mixitup.min.js"></script>
+	<script src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		/* https://learn.jquery.com/using-jquery-core/document-ready/ */
+		jQuery(document).ready(function () {
+
+			/* initialize the slider based on the Slider's ID attribute */
+			jQuery('#rev_slider_1').show().revolution({
+				/* options are 'auto', 'fullwidth' or 'fullscreen' */
+				sliderLayout: 'fullscreen',
+				lazyType: "all"
+			});
+			resizeHeader();
+		});
+		$('.slider').slick({
+			arrows: true,
+			dots: false,
+			infinite: true,
+			speed: 500,
+			slidesToShow: 1,
+			centerMode: true,
+			variableWidth: true,
+			draggable: false,
+			lazyLoad:'ondemand',
+		});
+
+		$('.slider')
+			.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+				$('.slick-list').addClass('do-transition')
+			})
+			.on('afterChange', function () {
+				$('.slick-list').removeClass('do-transition')
+			});
+
+	</script>
+
+
+</body>
+
+</html>

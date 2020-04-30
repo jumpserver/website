@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<html class="no-js lt-ie9 lt-ie8">
+<html class="no-js lt-ie9">
+<html class="no-js">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>JumpServer - 开源堡垒机 - 官网</title>
+	<meta name="description" content="JumpServer 是全球首款完全开源的堡垒机，多云环境下更好用的堡垒机，使用GNU GPL v2.0开源协议，是符合 4A 的专业运维安全审计系统。">
+	<meta name="keywords" content="JumpServer, 开源堡垒机, 堡垒机, 跳板机, 运维审计系统, 运维安全审计, 运维安全审计系统，多云">
+	<meta name="author" content="杭州飞致云信息科技有限公司">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo/js-logo-favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo/js-logo-favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/navigation.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="./plugins/revo-slider/css/navigation.css">
+	<link rel="stylesheet" href="./plugins/themefisher-font/style.css">
+	<link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./plugins/lightbox2/dist/css/lightbox.min.css">
+	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<!--<link rel='stylesheet prefetch' href='./css/slick.css'>-->
+    <link rel="stylesheet" href="./css/mega.css">
+	<link rel="stylesheet" type="text/css" href="./css/colors/green.css" title="light-green">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147297392-3"></script>
+    <script src="js/mega.js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147297392-3');
+
+        function close_section(e) {
+            event.stopPropagation();
+            event.preventDefault();
+            $("#footer_start").addClass("hidden");
+        }
+	</script>
+
+</head>
+
+<body id="body">
+	<header class="navigation navbar navbar-fixed-top">
+		<svg class="hidden-print" aria-hidden="true" style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<defs>
+				<symbol id="mega-nav-icon-angle" viewBox="0 0 13 7">
+					<polygon points="6.5,6.5 0.7,1.6 1.3,0.8 6.5,5.2 11.7,0.8 12.3,1.6 "></polygon>
+				</symbol>
+				<symbol id="mega-nav-icon-close" viewBox="0 0 13 15">
+					<path vector-effect="non-scaling-stroke" d="M1.1 14L11.9 1M11.9 14L1.1 1"></path>
+				</symbol>
+  			</defs>
+		</svg>
+		<div class="hidden-print mega-nav-sandbox">
+			<div class="mega-nav-banner">
+				<div class="container">
+					<div class="mega-nav-banner-item">
+						<a class="mega-nav-banner-logo" href="https://www.fit2cloud.com/"><img src="images/logo/banner-logo-f2c.png" alt="FIT2CLOUD Logo"></a>
+					</div>
+					<div class="mega-nav-banner-item">
+						<p class="mega-nav-tagline">
+							<span class="visible-xs text-muted">了解飞致云旗下软件产品</span>
+							<span class="hidden-xs text-muted">了解飞致云旗下软件产品</span>
+						</p>
+						<div id="#mega-nav" class="mega-nav">
+                            <button type="button" id="mega-nav-ctrl" class="mega-nav-ctrl">
+								<div class="mega-nav-ctrl-items">
+									<span class="mega-nav-icon-outline">
+										<svg class="mega-nav-icon mega-nav-icon-angle-right" aria-hidden="true">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mega-nav-icon-angle"></use>
+										</svg>
+										<span class="visuallyhidden">Open</span>
+									</span>
+								</div>
+							</button>
+
+							<div id="mega-nav-body-ct" class="mega-nav-body-ct" aria-labelledby="mega-nav-ctrl" style="display: none;">
+								<div class="mega-nav-body">
+									<button type="button" id="mega-nav-close" class="mega-nav-close"><svg class="mega-nav-icon mega-nav-icon-close" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mega-nav-icon-close"></use></svg><span class="visuallyhidden">Close</span></button>
+									<div class="mega-nav-body-header">
+										<div class="mega-nav-body-header-item">
+											<h2 class="mega-nav-h1">我们的软件为您提供了构建、运行、管理和保护企业所需的关键工具</h2>
+											<p class="mega-nav-h2"></p>
+										</div>
+									</div>
+									<div class="mega-nav-body-grid">
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">构建</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://metersphere.io/" class="mega-nav-grid-item mega-nav-grid-item-metersphere">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-ms.png" alt="MeterSphere Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源持续测试平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">BUILD</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+                                        <div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">运行</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://kubeoperator.io/" class="mega-nav-grid-item mega-nav-grid-item-kubeoperator">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-ko.png" alt="KubeOperator Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源容器平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">RUN</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">管理</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://www.fit2cloud.com/" class="mega-nav-grid-item mega-nav-grid-item-fit2cloud">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-f2c.png" alt="JumpServer Logo">
+														</div>
+                                                        <span class="mega-nav-h2">多云管理平台</span>
+														<ul>
+															<li><span class="mega-nav-tag">MANAGE</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<!--<div class="mega-nav-body-grid-item">-->
+											<!--<h3 class="mega-nav-h3">管理</h3>-->
+											<!--<ul class="mega-nav-grid">-->
+												<!--<li>-->
+													<!--<a href="https://www.consul.io" class="mega-nav-grid-item mega-nav-grid-item-fit2cloud">-->
+														<!--<div class="mega-nav-grid-item-img">-->
+															<!--<img src="./images/banner-nav/banner-nav-f2c.png" alt="FIT2CLOUD Logo">-->
+														<!--</div>-->
+                                                        <!--<span class="mega-nav-h2">多云管理平台</span>-->
+														<!--<ul>-->
+															<!--<li><span class="mega-nav-tag">MANAGE</span></li>-->
+														<!--</ul>-->
+													<!--</a>-->
+												<!--</li>-->
+											<!--</ul>-->
+										<!--</div>-->
+										<div class="mega-nav-body-grid-item">
+											<h3 class="mega-nav-h3">保护</h3>
+											<ul class="mega-nav-grid">
+												<li>
+													<a href="https://www.fit2cloud.com/" class="mega-nav-grid-item mega-nav-grid-item-jumpserver is-active">
+														<div class="mega-nav-grid-item-img">
+															<img src="images/logo/banner-nav-js.png" alt="JumpServer Logo">
+														</div>
+                                                        <span class="mega-nav-h2">开源堡垒机</span>
+														<ul>
+															<li><span class="mega-nav-tag">PROTECT</span></li>
+														</ul>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="mega-nav-body-footer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="clear:both">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- logo -->
+				<a class="navbar-brand logo" href="index.html">
+					<img class="logo-default" src="images/logo/js-logo-default.png" alt="logo" />
+					<img class="logo-white" src="images/logo/js-logo-white.png" alt="logo" />
+				</a>
+				<!-- /logo -->
+			</div>
+			<nav class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav menu">
+					<li><a href="./index.html">首页</a></li>
+					<li><a href="./features.html">功能</a></li>
+					<li><a target="_blank" href="http://jumpserver.readthedocs.io/">文档</a></li>
+					<li><a target="_blank" href="https://github.com/jumpserver/jumpserver/releases">下载</a></li>
+					<li><a target="_blank" href="https://blog.fit2cloud.com/?cat=35">博客</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">商业产品<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="page-scroll" href="https://www.fit2cloud.com/purchase/index.html" style="text-transform: none">JumpServer 软件订阅服务</a></li>
+							<li><a class="page-scroll" href="./hardware.html" style="text-transform: none">JumpServer 一体机</a></li>
+						</ul>
+					</li>
+					<li><a href="#connection">联系我们</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="section banner-area-hardware banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <div id="title" class="wow fadeInUp text-center banner-title" data-wow-duration=".5s" data-wow-delay=".3s">
+							购买 JumpServer 堡垒机一体机
+                        </div>
+                        <!--<p class="wow fadeInUp text-center banner-content" data-wow-duration=".5s" data-wow-delay=".5s">-->
+                            <!--「JumpServer」全面符合 4A 等保规范的堡垒机，快速了解 JumpServer 堡垒机的核心功能及详细的功能列表展示-->
+                        <!--</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!--<section class="section">-->
+		<!--<div class="container">-->
+			<!--<div class="row">-->
+				<!--<div class="title text-center">-->
+					<!--<h2>关于 JumpServer 堡垒机一体机</h2>-->
+					<!--<p>为了帮助企业用户快速、便捷地部署和使用Jumpserver堡垒机，我们特别推出了独立硬件设备—— JumpServer 堡垒机堡垒机一体机 CL100, CL200.</p>-->
+					<!--<div class="border"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</section>-->
+
+	<section class="service-2 section section-rewrite" id="advantage">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>JumpServer 堡垒机一体机的优势</h2>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-12">
+					<div class="row text-center" style="float: none">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="service-item">
+								<i class="fa fa-edit"></i>
+								<h4>开箱即用</h4>
+								<p>JumpServer堡垒机一体机出厂前已经完成所有软/硬件安装调试工作，用户完成上架安装即可。</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="service-item">
+								<i class="fa fa-edit"></i>
+								<h4>安全稳定</h4>
+								<p>JumpServer堡垒机一体机已针对硬件设备已经进行完备的系统测试，为用户提供稳定可靠的堡垒机使用体验。</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="service-item">
+								<i class="fa fa-edit"></i>
+								<h4>深度优化</h4>
+								<p>JumpServer堡垒机一体机出厂前已经完成备份、清理、并发处理等多项优化设置，实现了更佳的堡垒机使用性能。</p>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="service-item">
+								<i class="fa fa-edit"></i>
+								<h4>无忧使用</h4>
+								<p>JumpServer堡垒机软件无资产管理和用户并发限制，企业的资产数量持续增长时无需增加购买软件授权。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-2 section">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>堡垒机一体机产品目录</h2>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 hardware-div">
+					<table class="hardware-table">
+						<tr>
+							<th style="width:12%;">SKU</th>
+							<th style="width:20%;">名称</th>
+							<th style="width:25%;">内置软件</th>
+							<th style="width:24%;">备注</th>
+							<th style="width:14%;">购买方式</th>
+
+						</tr>
+						<tr>
+							<td>F2C-JMS-CL100</td>
+							<td>JumpServer 堡垒机一体机 CL100</td>
+							<td>3年 JumpServer 堡垒机软件订阅服务(企业版)</td>
+							<td>资产数量小于 5000，附赠 X-Pack 增强包</td>
+							<td><a href="#contact">联系销售</a></td>
+						</tr>
+						<tr>
+							<td>F2C-JMS-CL200</td>
+							<td>JumpServer 堡垒机一体机 CL200</td>
+							<td>3年 JumpServer 堡垒机软件订阅服务(旗舰版)</td>
+							<td>资产数量大于 5000，附赠 X-Pack 增强包</td>
+							<td><a href="#contact">联系销售</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>X-Pack增强包</h2>
+					<div class="border"></div>
+				</div>
+			</div>
+			<div class="row" >
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+                        <div class=" kill-border a-quarter-border">
+                            <i class="quarter-icon  fa fa-sitemap fa-4x jms-color"></i>
+                            <div class="title-item">组织管理</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+                        <div class=" kill-border a-quarter-border">
+                            <i class="quarter-icon fa fa-cloud   fa-4x jms-color"></i>
+                            <div class="title-item">多云管理</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+                        <div class=" kill-border a-quarter-border">
+                            <i class="quarter-icon fa fa-desktop fa-4x jms-color"></i>
+                            <div class="title-item">界面自定义</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+                        <div class="kill-border a-quarter-border">
+                            <i class="quarter-icon fa fa-key fa-4x jms-color"></i>
+                            <div class="title-item">改密计划</div>
+                        </div>
+                    </div>
+                </div>
+			<div class="row" style="margin-top: 50px">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+					<div class=" kill-border a-quarter-border">
+						<i class="quarter-icon fa fa-exchange fa-4x jms-color"></i>
+						<div class="title-item">RemoteApp功能</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+					<div class="kill-border a-quarter-border">
+						<i class="quarter-icon fa  fa-asterisk fa-4x jms-color"></i>
+						<div class="title-item">性能优化</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+					<div class=" kill-border a-quarter-border">
+						<i class="quarter-icon fa fa-file fa-4x jms-color"></i>
+						<div class="title-item">工单管理</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center ">
+					<div class="kill-border a-quarter-border">
+						<i class="quarter-icon fa fa-lock fa-4x jms-color"></i>
+						<div class="title-item">密码匣子</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-2 section">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>JumpServer 堡垒机一体机配置</h2>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<table class="hardware-table2" border="1">
+                        <tr class="subscription-level-tr-border">
+                            <th style="width:33%;background-color: #1ab394;color: #ffffff;" colspan="3">JumpServer
+                                CL100P</th>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-first-td-background-style" rowspan="7">硬件</td>
+                            <td class="hardware-second-td-background-style">机箱
+                            </td>
+                            <td class="hardware-third-td-background-style">1U机架式机箱
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">CPU</td>
+                            <td class="hardware-third-td-background-style">1颗 Intel XEON 铜牌 可扩展系统CPU
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">内存
+                            </td>
+                            <td class="hardware-third-td-background-style">2 根 8GB ECC DDR4 内存
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">硬盘1
+                            </td>
+                            <td class="hardware-third-td-background-style">2 块 2TB 3.5寸硬盘
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">硬盘2
+                            </td>
+                            <td class="hardware-third-td-background-style">2 块 120GB 2.5寸SSD硬盘
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">电源
+                            </td>
+                            <td class="hardware-third-td-background-style">450W 1+1 双电源
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+
+                            <td class="hardware-second-td-background-style">网络
+                            </td>
+                            <td class="hardware-third-td-background-style">集成双口千兆网卡，具有负载均衡功能
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-first-td-background-style" rowspan="3">软件</td>
+                            <td class="hardware-second-td-background-style">安装软件
+                            </td>
+                            <td class="hardware-third-td-background-style">JumpServer V1.4.8
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">并发量
+                            </td>
+                            <td class="hardware-third-td-background-style">硬件最大支持500个并发用户
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">资产数量
+                            </td>
+                            <td class="hardware-third-td-background-style">支持管理资产数量大于4000
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-first-td-background-style" rowspan="3">服务</td>
+                            <td class="hardware-second-td-background-style">软件订阅
+                            </td>
+                            <td class="hardware-third-td-background-style">3年 JumpServer 软件订阅服务（标准版）
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="hardware-second-td-background-style">硬件质保
+                            </td>
+                            <td class="hardware-third-td-background-style">3年硬件质保
+                            </td>
+                        </tr>
+
+                    </table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="title text-center">
+					<h2>软件订阅服务等级</h2>
+					<div class="border"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<table class="hardware-table2" border="">
+                        <tr class="subscription-level-tr-border">
+                            <th style="width:16%;background-color: #FFF;">服务内容</th>
+                            <th style="width:42%;background-color: #1ab394;">服务内容</th>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style">支持服务</td>
+                            <td class="third-td-background-style"><span
+                                    style="color: #1ab394;font-weight:bold;font-size: 24px;">7x24</span>
+                                工单及电话支持服务，<span style="color: #1ab394;font-weight:bold;font-size: 24px;">1</span>
+                                个小时内响应客户工单;
+                                接到故障申报后，工程师通过电话支持、远程接入等方式协助客户及时排除软件故障。
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style-special">现场安装及培训服务</td>
+                            <td class="third-td-background-style" rowspan="3">
+                                合计5人天的原厂专业服务,可提供现场安装、现场培训、现场紧急救助、软件故障现场排査等专业支持服务;并且可以根据企业 IT 规划提供 JumpServer
+                                建设及容量规划等专家顾问咨询服务。
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style-special">现场紧急救助服务</td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style-special">专家顾问咨询服务</td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style">软件升级服务</td>
+                            <td class="third-td-background-style">提供软件补丁、增强功能包等软件升级服务，无缝升级软件版本。
+                            </td>
+                        </tr>
+                        <tr class="subscription-level-tr-border">
+                            <td class="first-td-background-style">在线自助服务</td>
+                            <td class="third-td-background-style">提供客户支持门户,支持客户在线访问网站并下载相关资料,
+                                及时掌握最新的软件特性、维护经验、使用技巧等相关知识。
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="footer" class="contact section">
+        <div class="container">
+            <div class="row">
+                <div class="title text-center">
+                    <h1>联系我们</h1>
+					<div class="border"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">官方QQ群(552054376)</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-qq.jpg" alt="官方QQ群" class="img-thumbnail" width="120">
+                    </p>
+
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">微信公众号</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-wechat.png" alt="微信公众号" class="img-thumbnail" width="120">
+                    </p>
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <p class="text-center">
+                        <strong><span class="navy">销售许可信息查询</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                        <img src="images/js/js-xiaoshouxukeerweima.jpg" alt="销售许可" class="img-thumbnail" width="120">
+                    </p>
+                </div>
+                <div class="col-md-4 col-xs-12 col-md-offset-2" id="connection">
+                    <p>
+                        <strong><span class="navy">联系信息</span></strong><br />
+                        <strong><span class="navy"></span></strong><br />
+                    </p>
+
+					<p style="color: #676a6c">
+						<i class="fa fa-phone fa-sm"></i>
+                        400-052-0755
+                    </p>
+
+					<p style="color: #676a6c">
+						<a href="https://jinshuju.net/f/sQ91MK" style="color: #676a6c">
+							<span>技术咨询</span>
+							<!--</span> https://jinshuju.net/f/sQ91MK-->
+						</a>
+                    </p>
+
+                    <p style="color: #676a6c">
+						<a href="https://jinshuju.net/f/kyOYpi" style="color: #676a6c">
+                        	<span>企业版试用</span>
+							<!--https://jinshuju.net/f/kyOYpi-->
+						</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+	<footer>
+		<div class="footer-bottom">
+			<h5>© 2014-2020 杭州飞致云信息科技有限公司, All Rights Reserved.</h5>
+			<h5><a href="http://www.beian.miit.gov.cn" style="color: #888888">京ICP备15023818号</a></h5>
+		</div>
+	</footer>
+
+
+	<script src="plugins/jquery/dist/jquery.min.js"></script>
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+	<script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
+	<script src="plugins/slick-carousel/slick/slick.min.js"></script>
+	<script src="plugins/mixitup/dist/mixitup.min.js"></script>
+	<script src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="plugins/revo-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

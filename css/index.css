@@ -1,0 +1,273 @@
+/*.section-rewrite{*/
+/*padding: 100px 50px 0 0;*/
+/*}*/
+
+.video-rewrite {
+    background-color: #F7F7F7;
+}
+
+.logo {
+    margin-top: 6px !important;
+}
+
+.btn-main {
+    background: #1ab394 !important;
+    border: 1px solid #1ab394 !important;
+}
+
+.title .border {
+    background-color: #1ab394 !important;
+}
+
+.logo-foot {
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.title h2 {
+    font-weight: 450 !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile-title {
+        font-size: 35px !important;
+        font-weight: 450 !important;
+    }
+
+    .mobile-content {
+        font-size: 16px !important;
+        width: 100vw !important;
+        margin-top: 50px !important;
+        line-height: inherit !important;
+        word-wrap: break-word !important;
+        word-break: normal !important;
+        white-space:pre-wrap !important;
+    }
+    .mobile-button{
+        line-height: inherit !important;
+        margin-top: 150px !important;
+    }
+}
+
+.footer-start-box{
+    position: fixed;
+    bottom: 26px !important;
+    right: 22px !important;
+    width: 354px !important;
+    height: 130px !important;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(46,37,111,.32);
+    background-image: linear-gradient(109deg,#2e256f,#7565ee);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer-start-title{
+    font-weight: 600;
+}
+
+.footer-start-text{
+    color: white;
+    font-size: 13px;
+}
+
+.footer-github-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    z-index: 2;
+}
+
+.footer-start-close{
+    position: absolute;
+    top: 15px;
+    right: 14px;
+    cursor: pointer;
+    z-index: 3;
+    font-size: 16px
+}
+
+.p-sise {
+    font-size: 13px;
+}
+
+.footer-one {
+  text-align: center;
+  background-color: #1b1b1b;
+  border-top: 1px solid #2c2c2c;
+  padding: 30px 0;
+  color: #ffffff;
+}
+.contact {
+  background-image: url('../images/js/js-footer-map.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.banner-area:before {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.banner-area-hardware {
+    background-image: url("../images/banner/banner5.jpg");
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.banner-area-feature {
+    background-image: url("../images/banner/banner1.jpg");
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white ;
+    font-weight: 500;
+    letter-spacing:2px;
+    padding-bottom: 10px
+}
+.banner-content {
+    font-size: 14px;color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px
+}
+
+/*========hardware-table==============*/
+.hardware-div table tr th {
+    background-color: #4A4A4A;
+    color: #FFF;
+    font-face: PingFangSC-Medium;
+    font-size: 16px;
+    padding: 14px 0 14px 10px;
+    border: 1px solid #EEE;
+}
+
+.hardware-table {
+    width: 100%;
+    height: 100%;
+}
+
+.hardware-table td {
+    border: 1px solid #EEE;
+    padding: 14px 0 14px 10px;
+    font-size: 14px;
+}
+
+.hardware-table td:first-child {
+    background-color: #1ab394;
+    color: #FFF;
+}
+
+.hardware-table td:not(first-child) {
+    background-color: #F6F6F6;
+    color: #666;
+}
+
+.hardware-table2 th {
+    font-face: PingFangSC-Medium;
+    font-size: 16px;
+    padding: 15px 0 15px 10px;
+    text-align: center;
+}
+
+.hardware-first-td-background-style {
+  background-color: #FFF;
+  color: #666;
+  font-face: PingFangSC-Light;
+  font-size: 14px;
+  padding: 2px 0px 2px 15px;
+}
+
+.hardware-second-td-background-style {
+  background-color: #f9f9f9;
+  color: #666;
+  font-face: PingFangSC-Light;
+  font-size: 14px;
+  padding: 2px 15px 2px 15px;
+}
+
+.hardware-third-td-background-style {
+  background-color: #f1f1f1;
+  color: #666;
+  font-face: PingFangSC-Light;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+}
+
+.first-td-background-style {
+    background-color: #FFF;
+    color: #666;
+    font-face: PingFangSC-Light;
+    font-size: 14px;
+    padding: 15px 0px 15px 15px;
+}
+
+.second-td-background-style {
+    background-color: #f9f9f9;
+    color: #666;
+    font-face: PingFangSC-Light;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+}
+
+.third-td-background-style {
+    background-color: #f1f1f1;
+    color: #666;
+    font-face: PingFangSC-Light;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+}
+.first-td-background-style-special {
+    background-color: #FFF;
+    color: #666;
+    font-face: PingFangSC-Light;
+    font-size: 14px;
+    padding: 15px 0px 15px 15px;
+}
+
+.second-td-background-style-special {
+    background-color: #f9f9f9;
+    color: #666;
+    font-face: PingFangSC-Light;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+}
+.jms-color {
+  color:#1ab394;
+}
+/*========hardware-table====end==========*/
