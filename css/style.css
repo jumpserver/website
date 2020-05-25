@@ -2238,16 +2238,16 @@ a:focus, a:hover {
   height: 100%;
 }
 .header-back.one {
-  background: url('../images/js/banner/js-banner1.png') 50% 0 no-repeat;
+  background: url('../images/banner/js-banner1.png') 50% 0 no-repeat;
 }
 .header-back.two {
-  background: url('../images/js/banner/js-banner2.png') 50% 0 no-repeat;
+  background: url('../images/banner/js-banner2.png') 50% 0 no-repeat;
 }
 .header-back.three {
-  background: url('../images/js/banner/js-banner3.png') 50% 0 no-repeat;
+  background: url('../images/banner/js-banner3.png') 50% 0 no-repeat;
 }
 .header-back.four {
-  background: url('../images/js/banner/js-banner4.png') 50% 0 no-repeat;
+  background: url('../images/banner/js-banner4.png') 50% 0 no-repeat;
 }
 /*.header-back.seven {*/
   /*background: url('../img/huifang21920X500.jpg') 50% 0 no-repeat;*/
