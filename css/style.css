@@ -63,6 +63,18 @@ a:focus, a:hover {
   border-radius: 40px;
 }
 
+.btn-main-header {
+  border: 1px solid #ffffff;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase !important;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+
 .btn-main:hover {
   color: #fff;
 }
@@ -2158,6 +2170,15 @@ a:focus, a:hover {
   .tab-post-nav li a {
     padding: 10px 15px;
   }
+
+  /*index banner*/
+  .carousel-caption h1 {
+    font-weight: 700;
+    font-size: 24px !important;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: -1.5px;
+  }
 }
 
 .phone-btn-main {
@@ -2209,3 +2230,268 @@ a:focus, a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/* BACKGROUNDS SLIDER
+-------------------------------------------------- */
+.header-back {
+  /*height: 470px;*/
+  height: 100%;
+}
+.header-back.one {
+  background: url('../images/js/banner/js-banner1.png') 50% 0 no-repeat;
+}
+.header-back.two {
+  background: url('../images/js/banner/js-banner2.png') 50% 0 no-repeat;
+}
+.header-back.three {
+  background: url('../images/js/banner/js-banner3.png') 50% 0 no-repeat;
+}
+.header-back.four {
+  background: url('../images/js/banner/js-banner4.png') 50% 0 no-repeat;
+}
+/*.header-back.seven {*/
+  /*background: url('../img/huifang21920X500.jpg') 50% 0 no-repeat;*/
+/*}*/
+
+/*@media only screen and (max-width: 767px){*/
+  /*.carousel {*/
+  /*!*height: 470px;*!*/
+    /*!*height: 600px;*!*/
+    /*width: 767px;*/
+  /*}*/
+  /*!* Since positioning the image, we need to help out the caption *!*/
+  /*.carousel-caption {*/
+    /*z-index: 10;*/
+  /*}*/
+  /*!* Declare heights because of positioning of img element *!*/
+  /*.carousel .item {*/
+    /*!*height: 470px;*!*/
+    /*!*height: 600px;*!*/
+    /*width: 767px;*/
+    /*background-color: #777;*/
+  /*}*/
+  /*.carousel-inner > .item > img {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*!*min-width: 100%;*!*/
+    /*!*height: 470px;*!*/
+    /*!*height: 600px;*!*/
+    /*width: 767px;*/
+  /*}*/
+  /*.carousel-fade .carousel-inner .item {*/
+    /*opacity: 0;*/
+    /*-webkit-transition-property: opacity;*/
+    /*transition-property: opacity;*/
+  /*}*/
+  /*.carousel-fade .carousel-inner .active {*/
+    /*opacity: 1;*/
+  /*}*/
+  /*.carousel-fade .carousel-inner .active.left,*/
+  /*.carousel-fade .carousel-inner .active.right {*/
+    /*left: 0;*/
+    /*opacity: 0;*/
+    /*z-index: 1;*/
+  /*}*/
+  /*.carousel-fade .carousel-inner .next.left,*/
+  /*.carousel-fade .carousel-inner .prev.right {*/
+    /*opacity: 1;*/
+  /*}*/
+  /*.carousel-fade .carousel-control {*/
+    /*z-index: 2;*/
+  /*}*/
+  /*.carousel-control.left,*/
+  /*.carousel-control.right {*/
+    /*background: none;*/
+  /*}*/
+  /*.carousel-control {*/
+    /*width: 6%;*/
+  /*}*/
+  /*.carousel-inner .container {*/
+    /*position: relative;*/
+  /*}*/
+  /*.carousel-inner {*/
+    /*overflow: visible;*/
+  /*}*/
+  /*.carousel-caption {*/
+    /*position: absolute;*/
+    /*top: 100px;*/
+    /*!*left: 0;*!*/
+    /*!*bottom: auto;*!*/
+    /*!*right: auto;*!*/
+    /*!*text-align: left;*!*/
+  /*}*/
+  /*.carousel-caption {*/
+    /*position: absolute;*/
+    /*!*top: 100px;*!*/
+    /*!*left: 0;*!*/
+    /*!*bottom: auto;*!*/
+    /*!*right: auto;*!*/
+    /*!*text-align: left;*!*/
+  /*}*/
+  /*.carousel-caption.blank {*/
+    /*top: 200px;*/
+  /*}*/
+  /*.carousel-image {*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*top: 150px;*/
+  /*}*/
+  /*.carousel-indicators {*/
+    /*!*padding-right: 60px;*!*/
+  /*}*/
+  /*.carousel-caption h1 {*/
+    /*font-weight: 700;*/
+    /*font-size: 24px;*/
+    /*text-transform: uppercase;*/
+    /*text-shadow: none;*/
+    /*letter-spacing: -1.5px;*/
+  /*}*/
+  /*.carousel-caption p {*/
+    /*font-weight: 700;*/
+    /*text-transform: uppercase;*/
+    /*text-shadow: none;*/
+  /*}*/
+  /*.caption-link {*/
+    /*color: #fff;*/
+    /*margin-left: 10px;*/
+    /*text-transform: capitalize;*/
+    /*font-weight: 400;*/
+  /*}*/
+  /*.caption-link:hover {*/
+    /*text-decoration: none;*/
+    /*color: inherit;*/
+  /*}*/
+/*}*/
+
+/*--------------------------------------------------*/
+/* Carousel base class */
+.carousel {
+  /*height: 470px;*/
+  height: 600px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  /*height: 470px;*/
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*height: 470px;*/
+  height: 600px;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
+}
+.carousel-control {
+  width: 6%;
+}
+.carousel-inner .container {
+  position: relative;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-caption {
+  position: absolute;
+  top: 100px;
+  /*left: 0;*/
+  /*bottom: auto;*/
+  /*right: auto;*/
+  /*text-align: left;*/
+}
+.carousel-caption {
+  position: absolute;
+  /*top: 100px;*/
+  /*left: 0;*/
+  /*bottom: auto;*/
+  /*right: auto;*/
+  /*text-align: left;*/
+}
+.carousel-caption.blank {
+  top: 200px;
+}
+.carousel-image {
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+.carousel-indicators {
+  /*padding-right: 60px;*/
+}
+.carousel-caption h1 {
+  font-weight: 600;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: -1.5px;
+}
+.carousel-caption p {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: white;
+}
+.caption-link {
+  color: #fff;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.caption-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.glyphicon-chevron-left:before {
+    content: "\e079";
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+/*@media  {*/
+  /*#inSlider h1 {*/
+    /*font-size: 28px;*/
+  /*}*/
+  /*#inSlider p {*/
+    /*font-size: 13px;*/
+  /*}*/
+  /*#inSlider .btn-main {*/
+
+    /*font-size: 12px;*/
+    /*letter-spacing: 1px;*/
+    /*padding: 6px 20px;*/
+    /*text-transform: uppercase;*/
+    /*border-radius: 40px;*/
+/*}*/
+/*}*/

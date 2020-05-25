@@ -25,10 +25,11 @@
 	<link rel="stylesheet" href="./plugins/lightbox2/dist/css/lightbox.min.css">
 	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="./plugins/slick-carousel/slick/slick-theme.css">
-	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<link rel='stylesheet prefetch' href='./css/slick.css'>
 	<link rel="stylesheet" href="./css/mega.css">
+	<link rel="stylesheet" href="./css/style.css">
+
 
 	<link rel="stylesheet" type="text/css" href="./css/colors/green.css" title="light-green">
 	<script src="js/mega.js"></script>
@@ -222,40 +223,83 @@
 		</div>
 	</header>
 
-	<!--Banner-landing-->
-	<section class="testimonial section phone-height" style="background-image: url(images/landing/landing1.png) ;background-size: cover;padding-top: 0;height: 100vh">
-		<div class="container">
-			<div class="row" style="margin-top: -moz-calc((100vh - 200px)/2);    margin-top: -webkit-calc((100vh - 200px)/2);    margin-top: calc((100vh - 200px)/2);">
-				<div class="col-lg-12">
-					<div class="testimonial-slider">
-						<div class="item text-center">
-							<div class="client-details">
-								<div class="testimonial-slider">
-									<div class="row">
-										<div class="col-md-12 text-center">
-											<div class="col-md-12 text-center phone-title" style="font-size: 64px; font-weight: 500;letter-spacing:2px;padding-bottom: 10px;color: white">
-												多云环境下更好用的堡垒机
-											</div>
-											<p class="phone-text" style="font-size: 20px;width: 100%;font-weight: 300;">
-												JumpServer 是全球首款开源堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 机制的运维安全审计系统
-											</p>
-											<ul class="list-inline wow fadeInUp text-center" data-wow-duration=".5s" data-wow-delay=".10s" style="margin-top: 50px">
-												<li>
-													<a data-scroll href="https://github.com/jumpserver/jumpserver/" target="_blank" class="btn btn-main">
-														访问 GitHub 项目
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+	<div id="inSlider" class="carousel carousel-fade banner-display" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#inSlider" data-slide-to="0"></li>
+            <li data-target="#inSlider" data-slide-to="1"></li>
+            <li data-target="#inSlider" data-slide-to="2"></li>
+            <li data-target="#inSlider" data-slide-to="3" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item">
+                <div class="container text-center">
+					<div class="carousel-caption blank">
+                        <h1 class="phone-title">多云环境下更好用的堡垒机</h1>
+                        <p>JumpServer 是全球首款开源堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 机制的运维安全审计系统</p>
+                        <p>
+                            <a class="btn btn-main-header" href="https://github.com/jumpserver/jumpserver"
+                                role="button">
+                                View Project on GitHub
+                            </a>
+                        </p>
+                    </div>
 				</div>
-			</div>
-		</div>
-	</section>
+                <div class="header-back one"></div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption blank">
+                        <h1 class="phone-title">完全开源 符合 4A 机制的堡垒机</h1>
+                        <p>改变世界，从一点点开始</p>
+                        <p>
+                            <a class="btn btn-main-header" href="https://github.com/jumpserver/jumpserver"
+                                role="button">
+                                View Project on GitHub
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="header-back two"></div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+					<div class="carousel-caption blank">
+                        <h1 class="phone-title">JumpServer堡垒机远程办公场景实践</h1>
+                        <p>JumpServer堡垒机如何支持远程办公？</p>
+                        <p>
+                            <a class="btn btn-main-header" href="https://github.com/jumpserver/jumpserver"
+                                role="button">
+                                直播回放
+                            </a>
+                        </p>
+                    </div>
+				</div>
+                <div class="header-back three">
+                    <a style="display: block" href="http://live.vhall.com/907004669"></a>
+                </div>
+            </div>
+
+            <div class="item active">
+                <div class="container">
+					<div class="carousel-caption blank">
+                        <h1 class="phone-title">为企业等保合规保驾护航</h1>
+                        <p>改变世界，从一点点开始</p>
+                        <p>
+                            <a class="btn btn-main-header" href="https://github.com/jumpserver/jumpserver"
+                                role="button">
+                                View Project on GitHub
+                            </a>
+                        </p>
+                    </div>
+				</div>
+                <div class="header-back four">
+                    <a style="display: block" href="http://live.vhall.com/187419651"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<!--技术优势 Start-->
 	<section class="service-2 section section-rewrite" id="advantage">
@@ -538,29 +582,29 @@
             </div>
 
             <div class="row">
-                <div class="col-md-2 col-xs-12">
+                <div class="col-lg-2 col-lg-offset-2">
                     <p class="text-center">
                         <strong><span class="navy">官方QQ群(552054376)</span></strong><br />
                         <strong><span class="navy"></span></strong><br />
-                        <img src="images/js/js-qq.jpg" alt="官方QQ群" class="img-thumbnail" width="120">
+                        <img src="./images/js/js-qq.jpg" alt="官方QQ群" class="img-thumbnail" width="120">
                     </p>
 
                 </div>
-                <div class="col-md-2 col-xs-12">
+                <div class="col-lg-2">
                     <p class="text-center">
                         <strong><span class="navy">微信公众号</span></strong><br />
                         <strong><span class="navy"></span></strong><br />
-                        <img src="images/js/js-wechat.png" alt="微信公众号" class="img-thumbnail" width="120">
+                        <img src="./images/js/js-wechat.png" alt="微信公众号" class="img-thumbnail" width="120">
                     </p>
                 </div>
-                <div class="col-md-2 col-xs-12">
+                <div class="col-lg-2">
                     <p class="text-center">
                         <strong><span class="navy">销售许可信息查询</span></strong><br />
                         <strong><span class="navy"></span></strong><br />
-                        <img src="images/js/js-xiaoshouxukeerweima.jpg" alt="销售许可" class="img-thumbnail" width="120">
+                        <img src="./images/js/js-xiaoshouxukeerweima.jpg" alt="销售许可" class="img-thumbnail" width="120">
                     </p>
                 </div>
-                <div class="col-md-4 col-xs-12 col-md-offset-2" id="connection">
+                <div class="col-lg-2" id="connection" style="margin-left: 20px">
                     <p>
                         <strong><span class="navy">联系信息</span></strong><br />
                         <strong><span class="navy"></span></strong><br />
@@ -574,14 +618,12 @@
 					<p style="color: #676a6c">
 						<a href="https://jinshuju.net/f/sQ91MK" style="color: #676a6c">
 							<span>技术咨询</span>
-							<!--</span> https://jinshuju.net/f/sQ91MK-->
 						</a>
                     </p>
 
                     <p style="color: #676a6c">
 						<a href="https://jinshuju.net/f/kyOYpi" style="color: #676a6c">
                         	<span>企业版试用</span>
-							<!--https://jinshuju.net/f/kyOYpi-->
 						</a>
                     </p>
                 </div>
@@ -636,7 +678,6 @@
 			.on('afterChange', function () {
 				$('.slick-list').removeClass('do-transition')
 			});
-
 	</script>
 
 </body>

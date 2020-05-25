@@ -15,6 +15,11 @@
     border: 1px solid #1ab394 !important;
 }
 
+.btn-main-banner {
+    /*background: #1ab394 !important;*/
+    border: 1px solid #ffffff !important;
+}
+
 .title .border {
     background-color: #1ab394 !important;
 }

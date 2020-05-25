@@ -192,6 +192,7 @@ function resizeHeader() {
 		$("#phone-kubernetes-banner").removeClass("hidden");
 		$("#phone").addClass("sticky-header");
 		$("#title").css("font-size", "30px");
+		$(".phone-title").css("font-size", "30px")
 	} else {
 		$("#phone").addClass("hidden");
 		$("#web").removeClass("hidden");

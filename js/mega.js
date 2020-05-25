@@ -9309,10 +9309,10 @@ function track(selector, cb, link) {
     var event = params.event
     delete params.event
     if (link) {
-      analytics.trackLink(el, event, params)
+      // analytics.trackLink(el, event, params)
     } else {
       el.addEventListener('click', function() {
-        analytics.track(event, params)
+        // analytics.track(event, params)
       })
     }
   })
@@ -9507,7 +9507,7 @@ document.addEventListener("turbolinks:load", function() {
   }
 });
 document.addEventListener('turbolinks:load', function() {
-  analytics.page()
+  // analytics.page()
 
   track('.downloads .download .details li a', function(el) {
     var m = el.href.match(/consul_(.*?)_(.*?)_(.*?)\.zip/)
